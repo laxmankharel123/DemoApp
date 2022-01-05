@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">@color/white</color>
+    <color name="primary_color">@color/tertiary_gray_2</color>
+    <color name="color_on_surface">#3C424B</color>
+    <color name="secondary_color">#9DA1B7</color>
+    <color name="secondary_variant_color">#018786</color>
+    <color name="error_color">#CC0000</color>
+    <color name="primary_variant_color">@color/brandPrimaryColor</color>
+    <color name="primary_color_dark">@color/white</color>
+    <color name="color_on_primary">@color/primaryTextColor</color>
+    <color name="surface_color">@color/primaryTextColor</color>
+    <color name="color_on_error">@color/primaryTextColor</color>
+    <color name="color_on_secondary">@color/black</color>
+    <color name="color_on_background">@color/black</color>
+
+    <color name="brandPrimaryColor">#1877f2</color>
+    <color name="brandPrimaryLightColor2">#75ADF7</color>
+    <color name="brandPrimaryLightColor1">#E3EFFD</color>
+    <color name="brandPrimaryDarkColor">#073878</color>
+    <color name="brandPrimaryDarkColor1">#0A51AD</color>
+    <color name="brandPrimaryDarkColor2">#073878</color>
+
+    <color name="transaction_status_success_drawable_color">#1F41A124</color>
+    <color name="transaction_status_success_text_color">#41A124</color>
+    <color name="transaction_status_failed_drawable_color">#1FE30425</color>
+    <color name="transaction_status_failed_text_color">#E30425</color>
+    <color name="transaction_status_pending_drawable_color">#1FFD9726</color>
+    <color name="transaction_status_pending_text_color">#FD9726</color>
+
+    <color name="brandSecondaryColor">#cc0000</color>
+    <color name="brandSecondaryLightColor1">#FFC2C2</color>
+    <color name="brandSecondaryLightColor2">#FF4949</color>
+    <color name="brandSecondaryDarkColor1">#8C0000</color>
+    <color name="brandSecondaryDarkColor2">#500000</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="app_dash_board_color">#F5F8FA</color>
+
+
+    <color name="home_screen_border_less_button_color">#1F1877F2</color>
+    <color name="dash_board_chard_highlite_color">#ffff0000</color>
+    <color name="color_black">#000000</color>
+    <color name="primary_gray">#232A31</color>
+    <color name="secondary_gray">#464E56</color>
+    <color name="tertiary_gray_1">#5B636A</color>
+    <color name="tertiary_gray_2">#9299A1</color>
+    <color name="separator_color">#E0E4E9</color>
+    <color name="header_bg_color">#F5F8FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
+    <color name="floating_button_tint">@color/brandPrimaryColor</color>
+
+    <color name="tab_menu_active_color">@color/brandPrimaryColor</color>
+    <color name="tab_menu_in_active_color">@color/tertiary_gray_1</color>
+    <color name="app_action_button_active_color">@color/brandPrimaryColor</color>
+    <color name="app_action_button_in_active_color">@color/tertiary_gray_1</color>
+    <color name="more_section_icon_color">@color/tertiary_gray_2</color>
+
+    <color name="shimmer_background">#80999999</color>
+    <color name="fd_background">#17D2D2D2</color>
+    <color name="app_text_headline_color">#3C424B</color>
+    <color name="app_text_title_color">#A2A2A2</color>
+    <color name="app_text_body_color">#7E7E7E</color>
+
+    <color name="lite_button_text_color">#798392</color>
+    <color name="transparent">#00000000</color>
+    <color name="OtpTextView_bar_active_color">#393939</color>
+    <color name="OtpTextView_bar_inactive_color">#B3B8CF</color>
+
+    <color name="black_semi_transparent">#00000000</color>
+    <color name="orange_color">#ffff8800</color>
+    <color name="asset_background_default">#a1b7dc</color>
+    <color name="light_purple_background_color">#F7F9FC</color>
+    <color name="boarder_color">#C2C4C3</color>
+    <color name="dim_gray">#E3E3E3</color>
+    <color name="dim_gr1ay">#85E3E3E3</color>
+    <color name="dim_black">#C8212124</color>
+    <color name="red_button">#38D94149</color>
+    <color name="logo_white">#fefefe</color>
+    <color name="active_green">#1b5e20</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="success_view_background_color">#00C060</color>
+
+    <color name="transaction_history_discount_color">#4BC570</color>
+    <color name="profile_header_color">#EFEFEF</color>
+    <color name="faded_background_color">#F2F2F2</color>
+
+    <color name="grey_bg">#f0f0f0</color>
+    <color name="scanner_black_transparent">#EB020202</color>
+    <color name="scanner_black_transparent_dim">#11000000</color>
+    <color name="black_opacity_87">#DD000000</color>
+    <color name="textSubHeaderColor">#424242</color>
+
+    <color name="example_4_grey">#474747</color>
+    <color name="example_4_green">#008489</color>
+    <color name="example_4_grey_past">#BEBEBE</color>
+    <color name="brown_700">#5D4037</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="orange_800">#EF6C00</color>
+    <color name="green_700">#388E3C</color>
+    <color name="teal_700">#00796B</color>
+    <color name="pink_700">#C2185B</color>
+    <color name="red_800">#c62828</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="cyan_700">#0097A7</color>
+
+    <color name="pin_normal">#6B767E</color>
+    <color name="discount_color">#69D388</color>
+    <color name="charge_color">#D84148</color>
+    <color name="floting_button_active_color">#0a59d1</color>
+    <color name="floting_button_passive">#380A59D1</color>
+    <color name="black_opacity_50">#80000000</color>
+
+    <color name="selected_faq_background_color">#E0ECFD</color>
+    <color name="faq_selected_title_color">#0A59D1</color>
+    <color name="place_holder_background">#dddddd</color>
+    <color name="transaction_detail_border_color">#E8E8E8</color>
+
+    <color name="custom_header_text">#030303</color>
+    <color name="calendar_selected_day_bg">#ffcf40</color>
+    <color name="calendar_selected_range_bg">#ffcf40</color>
+    <color name="dateTimeRangePickerStateToday">#ffcf40</color>
+    <color name="key_Dark">#B3B8CF</color>
+    <color name="value_light">#B3B8CF</color>
+    <color name="value_Dark">#1C3C424B</color>
+    <color name="semi_dark">#172434</color>
+    <color name="clickable_textview_color">#284B8C</color>
+    <color name="password_policy_bg">#1F1877F2</color>
+    <color name="cheque_stop_notice_bg">#E0ECFD</color>
+    <color name="grid_title_color">#232326</color>
+    <color name="grid_header_color">#77767E</color>
+    <color name="gray_login">#8C8C8C</color>
+    <color name="choice_title_color">#1788C4</color>
+    <color name="dialog_box_description_color">#99191B1E</color>
+    <color name="dim_gray_from_account">#B3FFFFFF</color>
+    <color name="color_on_drop_down">#CC3C424B</color>
+    <color name="color_on_border">#C51B1D</color>
+    <color name="color_of_deposit_details">#4F4F4F</color>
+    <color name="contact_card_title_blue_color">#053f88</color>
+    <color name="color_switch_selected_color">#053f88</color>
+    <color name="color_switch_unselected_color">#809DC1</color>
+    <color name="notification_description_text_color">#99000000</color>
+    <color name="prefix_text_color">#000000</color>
+    <color name="inactive_icon_color">#7E7E7E</color>
+    <color name="account_card_text_color">#B3FFFFFF</color>
+    <color name="greeting_color">#3C424B</color>
+    <color name="chart_hider_text_color">#7E7E7E</color>
+    <color name="benef_normal_boarder_color">#EFF0FA</color>
+    <color name="benef_selected_boarder_color">#0029CC</color>
+    <color name="about_us_version_color">#969CB5</color>
+    <color name="search_view_background">#F7F9FC</color>
+    <color name="notice_container_background">#F8F8F8</color>
+    <color name="notice_stroke_color">#75ADF7</color>
+    <color name="airlines_destination_bg_color">#E5E8EF</color>
+    <color name="shaded_blue_color">#1F0172CB</color>
+
+
+</resources>

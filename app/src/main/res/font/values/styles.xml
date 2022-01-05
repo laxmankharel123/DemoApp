@@ -1,0 +1,970 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.AppTheme.GIBL" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@color/background_color</item>-->
+
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_variant_color</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="colorOnError">@color/color_on_error</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant_color</item>
+
+        <item name="scrimBackground" tools:ignore="PrivateResource">@color/mtrl_scrim_color</item>
+        <!-- <item name="android:textViewStyle">@style/textAppearanceSubTitle</item>-->
+        <item name="textInputStyle">@style/CustomFontTextInputLayout</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/primary_color_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
+
+    <!--    <style name="Base.AppTheme.GIBL.MaterialButton" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+    <style name="Base.AppTheme.GIBL.MaterialButtonDisable" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_states_materialbutton</item>// For API 21+
+        <item name="colorAccent">@color/app_action_button_active_color</item>// the main fix, For
+        API 19
+        <item name="android:fontFamily">@font/font_noto_sans_medium</item>
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:padding">@dimen/_11sdp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:enabled">false</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:colorButtonNormal">@color/brandPrimaryColor</item>
+
+    </style>
+
+    <!--    <style name="Base.AppTheme.GIBL.MaterialButton" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+    <style name="Base.AppTheme.GIBL.MaterialButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/app_action_button_active_color</item>// For API 21+
+        <item name="colorAccent">@color/app_action_button_active_color</item>// the main fix, For
+        API 19
+        <item name="android:fontFamily">@font/font_noto_sans_medium</item>
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/background_color</item>
+        <item name="android:padding">@dimen/_12sdp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:colorButtonNormal">@color/brandPrimaryColor</item>
+
+    </style>
+
+    <style name="textAppearanceHeadline" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+    <style name="textAppearanceSubTitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/tertiary_gray_2</item>
+    </style>
+
+    <style name="textAppearanceHeadline2" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceFeatureMenuName" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceSubTitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/app_text_title_color</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceBody" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceSubTitle2" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceToolBarTitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/primary_gray</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+        <item name="font">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceMonthlyStatementTitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceMonthlyStatementSubTitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceListItem" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceSecondaryButton">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/primary_variant_color</item>
+        <item name="fontFamily">@font/noto_sans_bold</item>
+    </style>
+
+    <style name="textAppearanceProfileContent">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceProfileContentList">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <!-- region TextInputLayout & TextInputEditText styles  for DropDown Menu-->
+    <style name="TextInputLayoutDropdownMenu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:theme">@style/ThemeOverlay.TextInputEditText.CustomFont</item>
+        <item name="hintTextAppearance">@style/TextInputLayoutHintText</item>
+        <item name="helperTextTextAppearance">@style/TextInputLayoutHelperText</item>
+        <item name="errorTextAppearance">@style/TextInputLayoutErrorText</item>
+    </style>
+
+    <!-- region TextInputLayout & TextInputEditText styles  for DropDown Menu-->
+    <style name="TextInputLayoutDropdownOfTransactionHistory" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:theme">@style/ThemeOverlay.TextInputEditText.CustomFont</item>
+        <item name="hintTextAppearance">@style/TextInputLayoutHintText</item>
+        <item name="helperTextTextAppearance">@style/TextInputLayoutHelperText</item>
+        <item name="errorTextAppearance">@style/TextInputLayoutErrorText</item>
+    </style>
+
+    <!-- region TextInputLayout & TextInputEditText styles -->
+    <style name="TextInputLayoutCustomFont" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:theme">@style/ThemeOverlay.TextInputEditText.CustomFont</item>
+        <item name="hintTextAppearance">@style/TextInputLayoutHintText</item>
+        <item name="helperTextTextAppearance">@style/TextInputLayoutHelperText</item>
+        <item name="errorTextAppearance">@style/TextInputLayoutErrorText</item>
+    </style>
+
+    <style name="ThemeOverlay.TextInputEditText.CustomFont" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:fontFamily">@font/font_noto_sans_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="CustomFontTextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/TextInputLayoutHintText</item>
+        <item name="helperTextTextAppearance">@style/TextInputLayoutHelperText</item>
+        <item name="errorTextAppearance">@style/TextInputLayoutErrorText</item>
+    </style>
+
+    <style name="TextInputLayoutHintText" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+
+    </style>
+
+    <style name="TextInputLayoutHelperText" parent="TextAppearance.Design.HelperText">
+        <item name="android:fontFamily">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <!--Added Later-->
+        <item name="android:layout_marginTop">@dimen/_3sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/black_opacity_50</item>
+
+    </style>
+
+    <style name="footerButtonStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="TextInputLayoutErrorText" parent="TextAppearance.Design.Error">
+        <item name="android:fontFamily">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+
+    </style>
+
+    <style name="titleStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="accountDetailStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="descriptionStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:paddingStart">@dimen/_10sdp</item>
+        <item name="android:paddingEnd">@dimen/_10sdp</item>
+    </style>
+
+    <style name="roundButtonStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">@color/brandPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/brandPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/primary_variant_color</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="CustomTextAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="tabSelectedTextColor">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="CustomTextSchedulePaymentAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:fontFamily">@font/noto_sans_medium</item>
+        <item name="tabSelectedTextColor">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="CustomTextSchedulePaymentAppearanceTabTextAllCaps" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:fontFamily">@font/noto_sans_medium</item>
+        <item name="tabSelectedTextColor">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="superBottomSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <!-- <item name="android:windowIsFloating">true</item>-->
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="Base.AppTheme.GIBL">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <!--<item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>-->
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="CustomProgressBarTheme">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Base.AppTheme.GIBL.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Base.AppTheme.GIBL.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Base.AppTheme.GIBL.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Base.AppTheme.GIBL.PopWindow">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="textAppearanceProfileCardUserName" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">@color/background_color</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceProfileCardUserCredential" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/background_color</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:statusBarColor">@color/brandPrimaryColor</item>
+
+        <!-- This is important! Don't forget to set window background -->
+
+        <!-- Additionally if you want animations when dialog opening -->
+        <!--        <item name="android:windowEnterAnimation">@anim/slide_up</item>-->
+        <!--        <item name="android:windowExitAnimation">@anim/slide_down</item>-->
+
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowBackground">@color/background_color</item>
+
+        <item name="android:windowFrame">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Base.AppTheme.GIBL.Slide">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="NearByTextAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:fontFamily">@font/noto_sans_bold</item>
+    </style>
+
+    <style name="textAppearanceTransactionTitleContent">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/semi_dark</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceTransactionContentList">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceNearByTitle">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/color_on_secondary</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceNearBySubTitle">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceTransactionDetailFaceKey">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceTransactionDetailFaceValue">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceAccountTitleContent">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceAccountNameContent">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceAccountNumberContent">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="CustomThemeOverlay_MaterialCalendar_dialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="buttonBarPositiveButtonStyle">@style/ThemeMaterialCalendarButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/ThemeMaterialCalendarButton</item>
+        <item name="materialButtonStyle">@style/ThemeMaterialCalendarTextButton</item>
+        <item name="colorPrimary">@color/brandPrimaryColor</item>
+
+    </style>
+
+    <style name="CustomThemeOverlay_MaterialCalendar_Fullscreen" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="buttonBarPositiveButtonStyle">@style/ThemeMaterialCalendarButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/ThemeMaterialCalendarButton</item>
+        <item name="materialButtonStyle">@style/ThemeMaterialCalendarTextButton</item>
+        <item name="colorPrimary">@color/brandPrimaryColor</item>
+
+    </style>
+
+    <style name="ThemeMaterialCalendarButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="ThemeMaterialCalendarTextButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog.Flush">
+        <item name="android:textColor">@color/brandPrimaryColor</item>
+        <item name="iconTint">@color/brandPrimaryColor</item>
+
+    </style>
+
+    <style name="textAppearanceRecordNotFoundTitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceRecordNotFoundSubTitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/example_4_green</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <!-- review list Key -->
+    <style name="reviewListKey">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <!-- review list Value -->
+    <style name="reviewListValue">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="passwordPolicyHeading">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_extra_bold</item>
+    </style>
+
+    <style name="passwordPolicyList">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceNotificationTitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">@color/color_on_secondary</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceNotificationDescription" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/notification_description_text_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceNotificationDate" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceBottomSheetTitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceAccountBottomSheetDescription">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="AppCompatAlertDialogBannerStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/background_shadow</item>
+    </style>
+
+    <style name="textAppearanceDialogTitle">
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceDialogDescription">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/dialog_box_description_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceExchangeTitleContent">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceExchangeValueContent">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceChequeBookNotice">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceChequeBookHistoryTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceChequeBookHistoryBodyFirst">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceChequeBookHistoryBodySecond">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceChequeBookHistoryStatus">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceMenuServices">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceRequestStatementStyle">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/brandPrimaryColor</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceItemListEditDelete">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/brandPrimaryColor</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceFdCardTitleStyle">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceDepositDescription">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/color_of_deposit_details</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceAccountCardNumber" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/account_card_text_color</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceAccountCardBalance">
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textColor">@color/background_color</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceAccountCardKey">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/account_card_text_color</item>
+        <item name="fontFamily">@font/noto_sans_medium</item>
+    </style>
+
+    <style name="textAppearanceOpenStatus">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/background_color</item>
+        <item name="fontFamily">@font/noto_sans_bold</item>
+    </style>
+
+    <style name="textAppearanceAccountCardTitle" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/background_color</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceGreetingStyle" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:textColor">@color/greeting_color</item>
+        <item name="fontFamily">@font/noto_sans_extra_bold</item>
+    </style>
+
+    <style name="textAppearanceBillListLabel" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceBillListItem" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceAboutUsVersion">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/about_us_version_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceAboutUsDescription">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/app_text_body_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="textAppearanceAboutUsLink">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/primary_variant_color</item>
+        <item name="fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">@color/color_switch_unselected_color</item>
+        <item name="colorSecondary">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="colorSecondary">@color/primary_variant_color</item>
+    </style>
+
+    <style name="ThemeOverlay.CheckBox" parent="">
+        <item name="colorSecondary">@color/primary_variant_color</item>   <!-- checked -->
+        <item name="colorOnSurface">@color/color_on_surface</item>  <!-- unchecked -->
+    </style>
+
+    <style name="MyCheckBox" parent="@style/Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.CheckBox</item>
+
+    </style>
+
+    <style name="searchViewStyle">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <style name="group_list_title_normal">
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="android:textSize">@dimen/average_text_size1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+
+    </style>
+
+    <style name="group_list_detail_normal">
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/app_text_headline_color</item>
+        <item name="android:textSize">@dimen/average_text_size1</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+    </style>
+
+    <!--New design Concept/Re-work Style START.......-->
+    <style name="textStyleHeadline1" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/font_noto_sans_extra_bold</item>
+        <item name="font">@font/font_noto_sans_extra_bold</item>
+        <item name="android:textSize">@dimen/_28ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="textStyleHeadline2" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="textStyleHeadline3" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+    <style name="textStyleSubtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+    <style name="textStyleSubtitle1White" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="textStyleSubtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+    <style name="textStyleSubtitle2brandPrimaryColor" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="textStyleBody1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+    <style name="textStyleBody2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/tertiary_gray_2</item>
+    </style>
+
+    <style name="textStyleBody2TertiaryGray1" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/tertiary_gray_1</item>
+    </style>
+
+    <style name="textStyleBody2SecondaryGray" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/secondary_gray</item>
+    </style>
+
+    <style name="primaryColorTextStyleBody2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="textStyleCaption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/tertiary_gray_2</item>
+    </style>
+
+    <style name="textStyleOverline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/tertiary_gray_1</item>
+    </style>
+
+    <style name="textStyleOverlineBold" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/font_noto_sans_bold</item>
+        <item name="font">@font/font_noto_sans_bold</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/tertiary_gray_1</item>
+    </style>
+
+    <style name="textStylePrimaryColorTextButton">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/brandPrimaryColor</item>
+    </style>
+
+    <style name="textStyleTextButton">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+
+    <style name="textStyleTransactionStatus">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontStyle">normal</item>
+    </style>
+
+    <style name="textStyleSemiBoldSubtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/noto_sans_semi_bold</item>
+        <item name="font">@font/noto_sans_semi_bold</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+    <style name="textStyleDashBoardMenu" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/secondary_gray</item>
+    </style>
+
+    <style name="textStyleTabsText" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">13dp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:autoSizeMinTextSize" tools:targetApi="o">13dp</item>
+        <item name="autoSizeMinTextSize">13dp</item>
+        <item name="android:textColor">@color/tertiary_gray_1</item>
+    </style>
+
+    <style name="textStyleSubtitle2SemiBold" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/font_noto_sans_semi_bold</item>
+        <item name="font">@font/font_noto_sans_semi_bold</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+    <style name="textStyleCaptionTertiaryGray1" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/tertiary_gray_1</item>
+    </style>
+
+    <style name="textStyleCaptionSecondaryGray" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/secondary_gray</item>
+    </style>
+
+    <style name="textStyleNoticeBody" parent="textStyleBody2">
+        <item name="android:textColor">@color/primary_gray</item>
+    </style>
+
+    <style name="textStyleCardNumber">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/background_color</item>
+        <item name="fontFamily">@font/noto_sans_semi_bold</item>
+    </style>
+
+    <!-- region TextInputLayout & TextInputEditText styles -->
+    <style name="TextInputLayoutTableInputFont" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:theme">@style/ThemeOverlay.TextInputEditText.CustomFont</item>
+        <item name="hintTextAppearance">@style/TextInputLayoutHintText</item>
+        <item name="helperTextTextAppearance">@style/TextInputLayoutHelperText</item>
+        <item name="errorTextAppearance">@style/TextInputLayoutErrorText</item>
+    </style>
+
+    <style name="topSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <!-- <item name="android:windowIsFloating">true</item>-->
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="TopSheet_DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_out_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_back_to_top</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+
+
+
+</resources>

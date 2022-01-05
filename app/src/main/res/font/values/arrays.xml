@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="autosize_text_sizes">
+        <item>@dimen/_12ssp</item>
+        <item>@dimen/_13ssp</item>
+        <item>@dimen/_14ssp</item>
+        <item>@dimen/_16ssp</item>
+        <item>@dimen/_17ssp</item>
+        <item>@dimen/_18ssp</item>
+        <item>@dimen/_19ssp</item>
+        <item>@dimen/_20ssp</item>
+    </array>
+
+</resources>

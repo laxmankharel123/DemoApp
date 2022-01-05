@@ -1,0 +1,1230 @@
+<resources xmlns:tools="http://schemas.android.com/tools" translatable="false">
+    <!--\u00B2-->
+    <string name="app_name" translatable="false">Global Smart Plus</string>
+    <integer name="mobile_max_length" translatable="false">10</integer>
+    <integer name="email_max_length" translatable="false">50</integer>
+    <integer name="amount_max_length" translatable="false">8</integer>
+    <string name="default_notification_channel_id" translatable="false">All</string>
+    <string name="android_notification_channel_id" translatable="false">Android</string>
+    <string name="unregistered_notification_channel_id" translatable="false">Unregistered</string>
+    <string name="permission_camera_rationale" translatable="false">Access to the camera is needed for detection</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="low_storage_error" translatable="false">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="no_camera_permission" translatable="false">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="generating_qr_code" translatable="false">Generating QR Code</string>
+
+    <string name="share_your_qr" translatable="false"><u>Share QR Code</u></string>
+    <string name="your_mobile_no" translatable="false">Mobile Number</string>
+    <string name="share_qr_code_description" translatable="false">Put QR Code shared Icon for share QR code to others</string>
+    <string name="generated_user_qr_code" translatable="false">Generated User QR Code</string>
+    <string name="user_name" translatable="false">Customer Name</string>
+
+    <string name="email_field" translatable="false">Email</string>
+    <string name="password_field" translatable="false">Password</string>
+    <string name="error_format_invalid" translatable="false">Format is invalid</string>
+    <string name="error_too_short" translatable="false">Too short</string>
+    <string name="action_login" translatable="false">LOGIN</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+
+    <string name="on_board_title_one" translatable="false">Welcome to GlobalSmart Plus</string>
+    <string name="on_board_body_one" translatable="false">Dedicated online banking, customer\nmobile app for loyal user</string>
+    <string name="on_board_title_two" translatable="false">Push Notifications</string>
+    <string name="on_board_body_two" translatable="false"><![CDATA[Get instant alerts & notification for\nany transaction via our app]]></string>
+    <string name="on_board_title_three" translatable="false"><![CDATA[Bills & Payment]]></string>
+    <string name="on_board_body_three" translatable="false">Pay your bills with GlobalSmart Plus App\nand earn Rewards</string>
+    <string name="on_board_title_four" translatable="false">Online Banking</string>
+    <string name="on_board_body_four" translatable="false">Get banking flexibility in the\npalm of your hands</string>
+    <string name="on_board_lets_get_started" translatable="false">START EXPLORING</string>
+    <string name="already_have_an_account_log_in" translatable="false">Already have Login Details?</string>
+    <string name="retry" translatable="false">RETRY</string>
+    <string name="post_subtitle" translatable="false">Submitted by %s</string>
+    <string name="title_description" translatable="false">Multiline title description</string>
+    <string name="title" translatable="false">Title</string>
+    <string name="otp_verification_title" translatable="false">Enter the 6 digit code\nsent to your mobile number</string>
+    <string name="enter_code_below" translatable="false">Enter the code below:</string>
+    <string name="resend_otp" translatable="false">Resend Code in</string>
+    <string name="code_resend_counter" translatable="false">0:49</string>
+    <string name="proceed" translatable="false">Proceed</string>
+    <string name="did_not_receive_code" translatable="false">I didn\'t receive the code</string>
+    <string name="resend" translatable="false">RESEND</string>
+    <string name="indicator_description" translatable="false">Using Image View for showing the DOT Indicator</string>
+    <string name="create_a_strong_password" translatable="false">Create Password</string>
+    <string name="strong_password_description" translatable="false"><![CDATA[For security reasons, your password needs at least 8 characters consisting of uppercase & lowercase]]></string>
+    <string name="label_enter_password" translatable="false">Enter Password</string>
+    <string name="label_enter_confirm_password" translatable="false">Re-enter Password</string>
+    <string name="btn_label_create" translatable="false">Create</string>
+    <string name="confirm_transaction_pin" translatable="false">Confirm Transaction PIN</string>
+    <string name="confirm_enter_enter_pin" translatable="false"> Re-enter the Transaction PIN</string>
+    <string name="change_the_transaction_pin" translatable="false"> Change Transaction PIN</string>
+    <string name="btn_label_submit" translatable="false">Submit</string>
+    <string name="setup_new_transaction_pin" translatable="false"> Create Transaction PIN</string>
+    <string name="set_up_transaction_description" translatable="false">This will be the PIN to carry out\nall the transaction on the app</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="exit_message" translatable="false">Press back again to leave</string>
+    <string name="verify_your_photo" translatable="false">Verify Your Photo</string>
+    <string name="verify_your_photo_details" translatable="false">To verify your identity, take a photo of yourself with the same gesture as shown below</string>
+    <string name="photo_security_details" translatable="false">This photo will be used only for verification and will not be visible for other users. As we\'re a financial service, we have to comply with</string>
+    <string name="kyc_aml_required" translatable="false">KYC and AML Requirements</string>
+    <string name="take_a_selfie" translatable="false">TAKE A SELFIE</string>
+    <string name="verify_your_documents" translatable="false">Verify Your Documents</string>
+    <string name="verify_your_documents_description" translatable="false">We Need to determine if an identity document is authentic and belongs to you</string>
+    <string name="upload_passport" translatable="false">Upload Passport</string>
+    <string name="upload_citizenship" translatable="false">Upload Citizenship</string>
+    <string name="verify" translatable="false">Verify</string>
+    <string name="i_dont_have_id" translatable="false">I don\'t have my ID with me</string>
+    <string name="error_message_here" translatable="false">Error message here</string>
+    <integer name="otp_length" translatable="false">6</integer>
+
+    <string name="prompt_info_title" translatable="false">My App\'s Authentication</string>
+    <string name="prompt_info_subtitle" translatable="false">Please login to get access</string>
+    <string name="prompt_info_description" translatable="false">My App is using Android biometric authentication</string>
+    <string name="prompt_info_use_app_password" translatable="false">Use app password</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="is_picture_clear" translatable="false">Is this clear enough?</string>
+    <string name="confirm_picture_description" translatable="false">Make sure your face is clearly visible and photo isn\'t blur.</string>
+    <string name="my_photo_is_clear" translatable="false">my photo is clear</string>
+    <string name="retake_photo" translatable="false">retake photo</string>
+    <string name="hold_camera_at_eye_level" translatable="false">Hold your phone at eye level and\nlook straight to the camera</string>
+    <string name="get_started_with_fintech_app" translatable="false">Get Started with GlobalSmart Plus</string>
+    <string name="sign_up_description" translatable="false">Enter your Account details</string>
+    <string name="sign_up_continue_description" translatable="false">By continuing, you will receive an SMS for verification</string>
+    <string name="brn_continue" translatable="false">Continue</string>
+    <string name="mobile_number_field" translatable="false">Mobile Number</string>
+    <string name="email_address_field" translatable="false">Email</string>
+    <string name="account_number_field" translatable="false">Account Number</string>
+    <string name="menu_item_notifications" translatable="false">Notifications</string>
+    <string name="biometric_prompt_title" translatable="false">GlobalSmart Plus</string>
+    <string name="biometric_prompt_sub_title" translatable="false">Verify Transaction!</string>
+    <string name="biometric_prompt_description" translatable="false">Please put your finger on your fingerprint sensor in order to validate</string>
+    <string name="otp_expired" translatable="false">OTP expired</string>
+    <string name="invalid_transaction_pin" translatable="false">Invalid transaction PIN</string>
+    <string name="reset_device_title" translatable="false">Reset Device</string>
+    <string name="reset_device_required_parameters" translatable="false">Enter your registered mobile number,\npassword and transaction PIN</string>
+    <string name="transaction_pin" translatable="false">Transaction PIN</string>
+    <string name="password" translatable="false">Password</string>
+
+    <string name="enableDescription" translatable="false">This helps to protect your account against\n fraud and makes verification faster</string>
+
+    <string name="welcome_string" translatable="false">Welcome to GlobalSmart Plus</string>
+    <string name="welcome_description_string" translatable="false">We’re super excited to have you onboard</string>
+    <string name="start_using" translatable="false">Start Using</string>
+    <string name="open_email_app" translatable="false">OPEN EMAIL APP</string>
+    <string name="i_didnt_receive_the_email" translatable="false">Didn\'t receive the email?</string>
+    <string name="email" translatable="false">johndoe@gmail.com</string>
+    <string name="request_to_confirm_email" translatable="false">In order to start using the app,\nwe need to confirm your email</string>
+    <string name="check_email" translatable="false">Check your Email</string>
+    <string name="enable_finger_print_authentication" translatable="false">ENABLE FINGERPRINT AUTHENTICATION</string>
+    <string name="not_right_now" translatable="false">Not Right Now</string>
+    <string name="enable_biometric_authentication_by" translatable="false">You can enable biometric authentication with\nyour fingerprint so that you don’t need to\nenter the password every time for login.</string>
+    <string name="use_biometric" translatable="false">Use Biometric Authentication</string>
+    <string name="sharing_your_location" translatable="false">Sharing your location adds\na layer of security</string>
+    <string name="enable_location" translatable="false">ENABLE LOCATION</string>
+    <string name="no_internet_connection_message" translatable="false">No Internet Connection</string>
+
+    <string name="app_google_play_store_link" translatable="false">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link" translatable="false">"market://details?id="</string>
+    <string name="transfer_successful" translatable="false">Transfer Successful</string>
+    <string name="successfully_transfer_to" translatable="false">Congratulations!\n you have successfully sent\n NPR.%1$s to %2$s.</string>
+    <!-- <string name="successful_fund_transfer"translatable="false"translatable="false">Congratulations! You have successfully %1$s\n NPR.%2$s to %3$s Account Number
+         %4$s</string>-->
+    <string name="successful_fund_transfer" translatable="false">You have successfully %1$s\n NPR.%2$s to %3$s Account Number
+        %4$s</string>
+    <string name="successful_schedule_fund_transfer" translatable="false">You have successfully %1$s\n NPR.%2$s to %3$s Account Number
+        %4$s</string>
+
+    <string name="successful_card_payment" translatable="false">Congratulations! You have successfully %1$s\n NPR.%2$s to %3$s Card Number
+        %4$s</string>
+    <!--<string name="successful_payment"translatable="false"translatable="false">Congratulations! You have successfully %1$s\n Rs.%2$s to %3$s</string>-->
+    <!-- <string name="successful_schedule"translatable="false"translatable="false">Congratulations! You have successfully %1$s\n NPR.%2$s to %3$s</string>-->
+    <!-- <string name="successful_payment"translatable="false"translatable="false">Congratulations! You have successfully %1$s\n NPR.%2$s to %3$s</string>-->
+    <string name="successful_schedule" translatable="false">You have successfully %1$s\n NPR.%2$s to %3$s</string>
+    <string name="successful_schedule_for" translatable="false">You have successfully %1$s\n NPR.%2$s for %3$s</string>
+    <string name="successful_payment" translatable="false">You have successfully %1$s\n NPR.%2$s to %3$s</string>
+    <string name="successful_payment_for" translatable="false">You have successfully %1$s\n NPR.%2$s for %3$s</string>
+    <string name="successful_payment_on" translatable="false">You have successfully %1$s\n NPR.%2$s on %3$s</string>
+    <string name="account_number" translatable="false">Ac No.%1$s</string>
+    <string name="get_receipt" translatable="false">Get Receipt</string>
+    <string name="phone_number" translatable="false">Phone Number</string>
+    <string name="mero_share_renewable" translatable="false">Meroshare Renewal</string>
+    <string name="demat_renewable" translatable="false">Demat Renewal</string>
+    <string name="phone_no" translatable="false">Phone No.</string>
+    <string name="reset" translatable="false">reset</string>
+    <string name="enter_otp" translatable="false">Verification</string>
+    <string name="enter_your_mobile_number" translatable="false">Enter Your %1$s</string>
+    <string name="otp_message" translatable="false">We will send you a six digit code</string>
+    <string name="login_with_finger_print_text" translatable="false">Login with Fingerprint</string>
+    <string name="not_activated_yet" translatable="false">Not Activated Yet?</string>
+    <string name="rest_device" translatable="false">Register New Device</string>
+    <string name="greeting_text" translatable="false">Good Morning</string>
+    <!-- <string name="welcome_to_gibl_app" translatable="false">Welcome to GlobalSmart<sup>+</sup></string>-->
+    <string name="welcome_to_gibl_app" translatable="false">Welcome to GlobalSmart Plus</string>
+    <string name="mobile_number_email_field" translatable="false">Mobile Number / Email</string>
+    <string name="dash_board_home" translatable="false">Home</string>
+    <string name="dash_board_account" translatable="false">Account</string>
+    <string name="dash_board_payments" translatable="false">Payments</string>
+    <string name="schedule_payment_bank_title" translatable="false">Bank Transfer</string>
+    <string name="schedule_payment_merchant_title" translatable="false">Merchant Payment</string>
+    <string name="cheque_book_request_title" translatable="false">Stop / Request</string>
+    <string name="request" translatable="false">Request</string>
+    <string name="history" translatable="false">History</string>
+    <string name="cheque_book_history_title" translatable="false">History</string>
+    <string name="dash_board_profile" translatable="false">Profile</string>
+    <string name="dash_board_more" translatable="false">More</string>
+    <string name="text_email" translatable="false">Email</string>
+    <string name="error_field_empty" translatable="false">Field must not be empty!!</string>
+    <string name="error_mobile_number" translatable="false">Mobile Number not valid</string>
+    <string name="error_identification_type" translatable="false">Invalid Identification Type</string>
+    <string name="error_user_email" translatable="false">Email not valid</string>
+    <string name="error_user_account_number" translatable="false">Account number not valid</string>
+    <string name="error_user_account_name" translatable="false">Account Name not valid</string>
+    <string name="reset_description" translatable="false">You are not authorized to login from this device</string>
+    <!--<string name="user_ID_error"translatable="false"translatable="false">User ID Error</string>-->
+    <string name="user_ID_error" translatable="false">Invalid Email or Mobile Number</string>
+    <string name="password_error" translatable="false">Invalid Password</string>
+    <string name="confirm_password_not_match_error" translatable="false">Please enter valid password</string>
+    <string name="confirm_pin_not_match_error" translatable="false">Please enter valid PIN</string>
+
+    <string name="title_activity_payments" translatable="false">PaymentsActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="description_forget_password_image" translatable="false">Forget Password Image</string>
+    <string name="description_title_text_view_for_showing_title" translatable="false">Title text view for showing title</string>
+    <string name="description_give_the_description_of_work_we_do" translatable="false">give the description of work we do</string>
+    <string name="label_sms" translatable="false">SMS</string>
+    <string name="label_email" translatable="false">Email</string>
+    <string name="brn_label_send_otp" translatable="false">Send OTP</string>
+    <string name="reset_password" translatable="false">Change Password</string>
+    <string name="create_password_description" translatable="false"><![CDATA[For security purposes, change your password]]></string>
+    <string name="new_password_field" translatable="false">New Password</string>
+    <string name="verify_new_password_field" translatable="false">Verify New Password</string>
+    <string name="verify_your_account" translatable="false">Verify Your Account</string>
+    <string name="verifyAccountSubtitle" translatable="false">Enjoy higher transaction limit by verifying your account</string>
+    <string name="select_preferred_app" translatable="false">Select Preferred  App</string>
+    <string name="label_cancel" translatable="false">Cancel</string>
+    <string name="label_later" translatable="false">Later</string>
+    <string name="please_wait" translatable="false">Please wait …</string>
+    <string name="label_title" translatable="false">Title</string>
+    <string name="menu_title_sms" translatable="false">SMS</string>
+    <string name="pin_error" translatable="false">PIN not valid</string>
+    <string name="title_reset_device" translatable="false">Reset Device</string>
+    <string name="unknown_error" translatable="false">Unknown Error</string>
+    <string name="request_timeout" translatable="false">Request Timeout</string>
+    <string name="greeting_good_morning" translatable="false">Good Morning</string>
+    <string name="greeting_good_afternoon" translatable="false">Good Afternoon</string>
+    <string name="greeting_good_Evening" translatable="false">Good Evening</string>
+    <string name="greetings" translatable="false">Welcome</string>
+    <string name="hide_chart" translatable="false">hide chart</string>
+    <string name="see_chart" translatable="false">Spending Trend</string>
+    <string name="login_with_fingerprint" translatable="false">Login with fingerprint</string>
+    <string name="choose_beneficiary" translatable="false">Choose Beneficiary</string>
+    <string name="bank_name" translatable="false">Beneficiary Bank Name</string>
+    <string name="branch" translatable="false">Bank Branch</string>
+    <string name="ac_number" translatable="false">Beneficiary Account Number</string>
+    <string name="recipient_s_name" translatable="false">Beneficiary Name</string>
+    <string name="amount" translatable="false">Amount</string>
+    <string name="remarks" translatable="false">Remarks</string>
+    <string name="label_login" translatable="false">Login</string>
+    <string name="label_forgot_password" translatable="false">Forgot Password?</string>
+    <string name="label_change_account" translatable="false">Change Account</string>
+    <string name="dash_board_qr" translatable="false">QR</string>
+    <string name="transaction_day_description" translatable="false">Show when the transaction is made eg: today, jan1</string>
+    <string name="transaction_title_description" translatable="false">Show Transaction Title/Merchant Name eg: IME PAY, Fund Transfer</string>
+    <string name="transaction_account_details_description" translatable="false">Contain User Account Number</string>
+    <string name="label_recent_transactions" translatable="false">Digital Transactions</string>
+    <string name="label_see_all" translatable="false">SEE ALL</string>
+    <string name="label_see_bill" translatable="false">SEE BILL</string>
+    <string name="label_profile_activities" translatable="false">Activities</string>
+    <string name="label_transaction_history" translatable="false">Transaction History</string>
+    <string name="label_my_qr_code" translatable="false">My QR Code</string>
+    <string name="label_my_terms_and_condition" translatable="false">Terms &amp; Conditions</string>
+    <string name="label_profile_account" translatable="false">Account</string>
+    <string name="label_favorite_account" translatable="false">Favourite</string>
+    <string name="label_security" translatable="false">Security</string>
+    <string name="label_support" translatable="false">Support</string>
+    <string name="label_faq" translatable="false">FAQ</string>
+    <string name="label_contact_us" translatable="false">Contact Us</string>
+    <string name="label_complain" translatable="false">Complain</string>
+    <string name="label_log_out" translatable="false">Logout</string>
+    <string name="label_never" translatable="false">NEVER</string>
+    <string name="label_enable_now" translatable="false">LINK NOW</string>
+    <string name="label_notification" translatable="false">Notification</string>
+    <string name="label_profile" translatable="false">Profile</string>
+    <string name="dash_board_tool_bar_title_smart" translatable="false">Smart</string>
+    <string name="dash_board_tool_bar_title_global" translatable="false">GlobalSmart</string>
+    <string name="dash_board_tool_bar_title_global_smart_plus" translatable="false">Plus</string>
+    <string name="label_see_chart" translatable="false">See Chart</string>
+    <string name="title_activity_profile" translatable="false">ProfileActivity</string>
+    <string name="change_password" translatable="false">Change Password</string>
+    <string name="change_password_description" translatable="false">Change your account password</string>
+    <string name="change_transaction_pin" translatable="false">Change Transaction PIN</string>
+    <string name="reset_transaction_pin" translatable="false">Reset Transaction PIN</string>
+    <string name="change_transaction_pin_description" translatable="false">Change your PIN number</string>
+    <string name="reset_transaction_pin_description" translatable="false">Reset your PIN number</string>
+    <string name="finger_print_setup" translatable="false">Login Fingerprint Setup</string>
+    <string name="enable_fingerprint" translatable="false">Use Fingerprint</string>
+    <string name="faceid_setup" translatable="false">Face ID Setup</string>
+    <string name="privacy" translatable="false">Privacy</string>
+    <string name="push_notification" translatable="false">Push Notification</string>
+    <string name="mute_notification" translatable="false">Mute Notification</string>
+    <string name="transaction_summary" translatable="false">Transaction Summary of last 30 days</string>
+    <string name="transaction_summary_30_days_label" translatable="false">30 days</string>
+    <string name="toggle_enabled" translatable="false">Enabled</string>
+    <string name="toggle_disabled" translatable="false">Disabled</string>
+    <string name="next" translatable="false">next</string>
+    <string name="dash_board_greeting" translatable="false">DashBoard Greeting Label</string>
+    <string name="about_us_description" translatable="false">Global IME Bank Ltd. (GlobalSmart Plus) emerged after successful merger of Global Bank Ltd (an “A” class commercial bank),
+        IME Financial Institution (a “C” class finance company) and Lord Buddha Finance Ltd. (a “C” class finance company) in year 2012.
+        Two more “B” class development banks (Social Development Bank and Gulmi Bikas Bank) merged with Global IME Bank Ltd in year 2013.
+        Later, in the year 2014, Global IME Bank made another merger with Commerz and Trust Bank Nepal Ltd. (an “A” class commercial bank).
+        During 2015&#8211;16, Global IME Bank Limited acquired Pacific Development Bank Limited (a \"B\" Class Development Bank)
+        and Reliable Development Bank Limited (a \"B\" Class Development Bank). During 2019-20, Global IME Bank Limited acquired Hathway Finance Limited
+        a “C” class finance company) and merged with Janata Bank Nepal Limited (an “A” class commercial bank).
+       </string>
+    <string name="version" translatable="false">Version</string>
+    <string name="followus" translatable="false">Follow us on</string>
+    <string name="customer_name" translatable="false">Your Name</string>
+    <string name="customer_email" translatable="false">Your Email</string>
+    <string name="complain_feedback" translatable="false">Complain or Feedback</string>
+    <string name="customer_address" translatable="false">Address</string>
+    <string name="connect_with_us" translatable="false">Connect With Us</string>
+    <string name="phone1" translatable="false">014446151</string>
+
+    <string name="hold_and_scan_qr_code_to_pay" translatable="false">Scan a code to easily transfer\nor withdraw money</string>
+    <string name="scan_qr_code_agent" translatable="false">Scan  QR Code To Withdraw Money</string>
+    <string name="allow_camera_access" translatable="false">Allow Camera Access</string>
+    <string name="allow_camera_access_desc" translatable="false">To make a faster payment please enable your camera permission to start scanning QR codes</string>
+    <string name="aloow_access" translatable="false">Allow Access</string>
+    <string name="initializing_qr_scanner" translatable="false">Initializing QR Scanner</string>
+    <string name="menu_item_share_qr" translatable="false">Share QR Code</string>
+    <string name="scan" translatable="false">Scan</string>
+    <string name="search" translatable="false">Search…</string>
+    <string name="search_branch" translatable="false">Search Bank Branch</string>
+    <string name="search_city_place" translatable="false">Select City Or Place</string>
+    <string name="label_fund_transfer" translatable="false">Fund Transfer</string>
+    <string name="label_fund_transfer_enter_details" translatable="false">Enter Details</string>
+    <string name="clear_choose_beneficiary" translatable="false">CLEAR ALL</string>
+    <string name="round_trip_origin_source" translatable="false">ROUND_TRIP_ORIGIN</string>
+    <string name="round_trip_destination_source" translatable="false">ROUND_TRIP_DESTINATION</string>
+    <string name="oneway_origin_source" translatable="false">ONEWAY_ORIGIN</string>
+    <string name="oneway_destination_source" translatable="false">ONEWAY_DESTINATION</string>
+
+    <string name="facebook_url" translatable="false">https://www.facebook.com/Globalime</string>
+    <string name="instagram_url" translatable="false">https://www.instagram.com/globalimebank</string>
+    <string name="twitter_url" translatable="false">https://twitter.com/globalime_bank</string>
+    <string name="tiktok_url" translatable="false">https://www.tiktok.com/@globalimebank</string>
+    <string name="linkedin_url" translatable="false">https://www.linkedin.com/company/global-ime-bank-limited/</string>
+    <string name="gibl_ime_bank_link" translatable="false">https://globalimebank.com/</string>
+    <string name="download_pdf" translatable="false">download pdf</string>
+    <string name="old_password" translatable="false">Old Password</string>
+    <string name="label_reset" translatable="false">Reset</string>
+    <string name="label_reset_device" translatable="false">Reset Device</string>
+
+    <string-array name="complain_category" translatable="false">
+        <item>ADMINISTRATION</item>
+        <item>ATM Card</item>
+        <item>MARKETING</item>
+        <item>CUSTOMER</item>
+    </string-array>
+
+    <!-- transaction review -->
+    <string name="remaining_balance" translatable="false">Your Remaining Balance</string>
+    <string name="confirm_payment" translatable="false">confirm</string>
+    <string name="review_title" translatable="false">Let\'s Review!</string>
+
+    <string name="example_1_title" translatable="false">Example 1</string>
+    <string name="example_1_subtitle" translatable="false">Multiple selection, horizontal scrolling, shows usage of \"maxRowCount\" property to switch between week and month modes. Also shows usage of OutDateStyle \"endOfRow\".</string>
+    <string name="example_2_title" translatable="false">Example 2</string>
+    <string name="example_2_subtitle" translatable="false">Month header view, single selection, vertical scrolling, hides in and out dates.</string>
+    <string name="example_3_title" translatable="false">Example 3</string>
+    <string name="example_3_subtitle" translatable="false">Event style implementation, day labels as header view, single selection, month scroll listener. Similar to what is in the Google Calendar app.</string>
+    <string name="example_4_title" translatable="false">Example 4</string>
+    <string name="example_4_subtitle" translatable="false">Continuous selection within one month and across multiple months, dates older than the current day are disabled. Similar to what is in the Airbnb app.</string>
+    <string name="example_5_title" translatable="false">Example 5</string>
+    <string name="example_5_subtitle" translatable="false">Single selection, programmatic calendar scrolling, generates six rows for all months showing \"endOfGrid\" implementation of \"outDateStyle\" option. A flight schedule calender.</string>
+    <string name="example_6_title" translatable="false">Example 6</string>
+    <string name="example_6_subtitle" translatable="false">Custom date width and height, custom month view, item decoration on the CalendarView, continuous horizontal scrolling style.</string>
+    <string name="example_7_title" translatable="false">Example 7</string>
+    <string name="example_7_subtitle" translatable="false">Week mode calendar with single selection. Shows usage of \"hasBoundaries\" and  \"maxRowCount\" properties.</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="example_3_input_dialog_title" translatable="false">Enter event title</string>
+    <string name="example_3_empty_input_text" translatable="false">Text is empty</string>
+    <string name="example_3_dialog_delete_confirmation" translatable="false">Delete this event?</string>
+    <string name="delete_title" translatable="false">Delete?</string>
+    <string name="delete" translatable="false">DELETE</string>
+    <string name="start_date" translatable="false">Start Date</string>
+    <string name="end_date" translatable="false">End Date</string>
+    <string name="clear" translatable="false">Clear</string>
+    <string name="week_mode" translatable="false">Week mode</string>
+    <string name="unknown_host_exception" translatable="false">Unable to resolve No address associated with hostname</string>
+    <string name="enter_transaction_pin" translatable="false">Enter your transaction PIN</string>
+    <string name="forgot_pin" translatable="false">Forgot?</string>
+    <string name="charge" translatable="false">Charge:\u0020</string>
+    <string name="charge_value_separator" translatable="false">\u0020|\u0020</string>
+    <string name="discount" translatable="false">Discount:\u0020</string>
+    <string name="rupees" translatable="false">NPR\u0020</string>
+    <string name="transaction_review_account_number_short_key" translatable="false">A/C\u0020</string>
+    <string name="user_full_name" translatable="false">Processed By</string>
+    <string name="code" translatable="false">Code</string>
+    <string name="top_code" translatable="false">top_code</string>
+    <string name="channel" translatable="false">channel</string>
+    <string name="transaction_type" translatable="false">Transaction Type</string>
+    <string name="status" translatable="false">Status</string>
+    <string name="reward" translatable="false">Reward</string>
+    <string name="discount1" translatable="false">Discount</string>
+    <string name="commission" translatable="false">Commission</string>
+    <string name="toAccountNumber" translatable="false">To Acc. No</string>
+    <string name="toAccountName" translatable="false">Receiver</string>
+    <string name="receiverAccountName" translatable="false">Receiver Name</string>
+    <string name="receiverAccountNumber" translatable="false">Receiver Account\nNumber</string>
+    <string name="created_date" translatable="false">Transaction Date</string>
+    <string name="transaction_id" translatable="false">Transaction ID</string>
+    <string name="reward_point" translatable="false">Reward Points</string>
+    <string name="processed_by" translatable="false">Processed By</string>
+    <string name="channel1" translatable="false">Channel</string>
+    <string name="logout_message_unauth" translatable="false">It seems you are logged to another device.</string>
+
+    <string name="log_out" translatable="false">Log Out?</string>
+    <string name="session_out_description" translatable="false">Session Expired "Your session has expired. Please login again."</string>
+    <string name="log_out_description" translatable="false">You can always access your content by signing back in. </string>
+    <string name="transaction_not_found" translatable="false">No Transaction Found</string>
+    <string name="benef_banks_not_found_message" translatable="false">Beneficiary Banks Not Found</string>
+    <string name="flight_location_not_found_message" translatable="false">Flight Location Not Found</string>
+    <string name="my_tickets_not_found_message" translatable="false">Tickets Not Found</string>
+    <string name="label_ok" translatable="false">OK</string>
+    <string name="dialog_title_GIBL" translatable="false">GlobalSmart Plus</string>
+    <string name="label_unauthorized" translatable="false">Unauthorized !</string>
+    <string name="label_re_login" translatable="false">Re-Login</string>
+    <string name="label_activity_history" translatable="false">Activity History</string>
+    <string name="label_about_us" translatable="false">About Us</string>
+    <string name="cheque_book_title" translatable="false">Cheque Book</string>
+    <string name="label_upload_photo" translatable="false">Upload Profile Photo</string>
+    <string name="label_change_photo" translatable="false">Change Profile Photo</string>
+    <string name="cas_or_customer_id" translatable="false">Enter CAS/Chip ID or Customer ID</string>
+    <string name="done" translatable="false">done</string>
+    <string name="invalid_customer_id" translatable="false">Invalid Customer ID</string>
+    <string name="profile_change_password_description" translatable="false">For security reason please change your Transaction PIN</string>
+    <string name="old_pin" translatable="false">Current Transaction PIN</string>
+    <string name="new_pin_field" translatable="false">New Transaction PIN</string>
+    <string name="verify_new_pin_field" translatable="false">Confirm New Transaction PIN</string>
+    <string name="generic_message_present_here" translatable="false">Generic Message show here</string>
+    <string name="terms_amp_conditions" translatable="false"><![CDATA[Terms,& Conditions]]></string>
+    <string name="u_will_agree" translatable="false">I have read and agree to the</string>
+    <string name="password_change_successfully_message" translatable="false">Congratulation!!\nSecurity password has been changed successfully</string>
+    <string name="password_pin_change_successfully_message" translatable="false">Congratulation!!\nSecurity password has been changed
+        successfully\nPlease set Transaction PIN</string>
+    <string name="frag_registration" translatable="false">Registration</string>
+    <string name="frag_verify_email" translatable="false">Verify Email</string>
+    <string name="frag_enter_otp" translatable="false">Enter OTP</string>
+    <string name="frag_create_password" translatable="false">Create Password</string>
+    <string name="frag_transaction_pin" translatable="false">Create Transaction PIN</string>
+    <string name="frag_confirm_transaction_pin" translatable="false">Confirm Transaction PIN</string>
+    <string name="skip_this_step" translatable="false">SKIP THIS STEP</string>
+    <string name="frag_title_schedule_payment" translatable="false">Schedule Payment</string>
+    <string name="label_no_Schedules" translatable="false">No Records Found</string>
+    <string name="label_no_records" translatable="false">No Records Found</string>
+    <string name="label_transaction_fingerprint_setup" translatable="false">Transaction Fingerprint Setup</string>
+    <string name="tv_finger_print_description" translatable="false">Setup Transaction Fingerprint</string>
+    <string name="login_with_biometric_failed" translatable="false">Login With Biometric Setup Failed</string>
+    <string name="transaction_with_biometric_failed" translatable="false">Transaction With Biometric Setup Failed</string>
+    <string name="prompt_info_dismiss" translatable="false">Dismiss</string>
+    <string name="preference_name" translatable="false">Preference Name</string>
+    <string name="payment_date" translatable="false">Payment Date</string>
+    <string name="schedule_scheme" translatable="false">Schedule Scheme</string>
+    <string name="frequency" translatable="false">Frequency</string>
+    <string name="payment_start_date" translatable="false">Payment Start Date</string>
+    <string name="frag_title_schedule_payment_edit" translatable="false">Edit</string>
+
+    <string name="address" translatable="false">Address:\u0020</string>
+    <string name="customer_package" translatable="false">Package:\u0020</string>
+    <string name="invalid_remarks" translatable="false">Invalid Remarks</string>
+    <string name="cas_or_customer_id_label" translatable="false">CAS/Chip ID or Customer Id</string>
+    <string name="sim_tv_label" translatable="false">Sim TV</string>
+    <string name="no_of_tv" translatable="false">Number of TV</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="invalid_mobile_number" translatable="false">Invalid Mobile Number</string>
+    <string name="amount_less_than_minimum" translatable="false">Minimum amount must be NPR. 10</string>
+    <string name="invalid_amount" translatable="false">Invalid Amount</string>
+
+    <string name="scan_qr_code_sendmoney" translatable="false">Scan Receiver\'s QR Code to send Money</string>
+
+    <string name="global_smart_banking" translatable="false">GlobalSmart Plus</string>
+    <string name="enter_your_wallet_pin" translatable="false">Please enter your transaction PIN.</string>
+    <string name="pin_must_be_of_four_digit" translatable="false">PIN must be of four digit</string>
+    <string name="touch_the_fingerprint_sensor" translatable="false">Touch the fingerprint sensor</string>
+    <string name="fingerprint_notrecognized" translatable="false">Fingerprint not recognized!</string>
+    <string name="fingerprint_lock_maxlimit" translatable="false">Fingerprint disabled because of max invalid attempts</string>
+    <string name="pay_bill" translatable="false">Pay Bill</string>
+    <string name="payment_details" translatable="false">Payment Details</string>
+    <string name="total_receiving" translatable="false">Total receiving</string>
+    <string name="reward_details" translatable="false">Reward Details</string>
+    <string name="total_reward_points" translatable="false">Total reward points</string>
+    <string name="receive" translatable="false">Receive</string>
+    <string name="prompt_offline_transaction" translatable="false">It seems like you are not connected to internet at the moment. Please check your internet connection or try offline (via SMS) \n\n\n\n *Offline transactions are free for NTC &amp; NCELL users"</string>
+    <string name="normal_member" translatable="false">Normal Member</string>
+
+    <string name="permission_request_message" translatable="false">Global Smart Plus requires permissions to perform correctly. Please grant the required permissions to use Global Smart Plus.</string>
+    <string name="permission_grant_title" translatable="false">Permission Request</string>
+    <string name="request_processing_failed" translatable="false">Something went wrong while processing your request. Please contact GlobalSmart Plus
+        Customer Support.</string>
+    <string name="upload_failed" translatable="false">Unable to upload image</string>
+    <string name="label_scan_qr_code" translatable="false">Scan QR Code</string>
+    <string name="label_change_password" translatable="false">Change Password</string>
+    <string name="recharge" translatable="false">Recharge</string>
+    <string name="contact_book" translatable="false">Contacts</string>
+    <string name="select_purpose" translatable="false">Select Purpose</string>
+    <string name="mobile_number_must_be_10_digit" translatable="false">Enter 10 digit valid mobile number</string>
+    <string name="enter_amount" translatable="false">Enter Amount</string>
+    <string name="recharge_amount" translatable="false">Select Amount</string>
+    <string name="recharge_amount_enter" translatable="false">Enter Recharge Amount</string>
+    <string name="recharge_amount_select" translatable="false">Select Recharge Amount</string>
+    <string name="select_enter_recharge_amount" translatable="false">Select or Enter Recharge Amount</string>
+    <string name="enter_select_amount" translatable="false">Enter or Select Amount</string>
+    <string name="mobile_error_message" translatable="false">Mobile Recharge is available for NTC, Ncell and SmartCell users only</string>
+    <string name="actual_paying" translatable="false">Actual Paying</string>
+    <string name="label_sign_up" translatable="false">Register</string>
+    <string name="label_emal_verify" translatable="false">Verify Email</string>
+
+    <string name="verify_your_number" translatable="false">Verification</string>
+    <string name="enter_verification_code" translatable="false">Enter the six digit code sent to</string>
+    <string name="label_verify_otp" translatable="false">Verify OTP</string>
+    <string name="label_confirm_transaction_pin" translatable="false">Confirm PIN</string>
+    <string name="label_pin" translatable="false">Setup PIN</string>
+    <string name="label_enable_location" translatable="false">Enable Location</string>
+    <string name="label_enable_biometric" translatable="false">Enable Biometric</string>
+    <string name="label_mbanking" translatable="false">mBanking</string>
+    <string name="skip" translatable="false">SKIP</string>
+    <string name="we_have_sent_an_otp_to" translatable="false">Enter the six digit code sent to</string>
+    <string name="old_password_new_password_match" translatable="false">New Password should not match with Old Password</string>
+    <string name="label_change_transaction_pin" translatable="false">Change PIN</string>
+    <string name="label_create_password" translatable="false">Create Password</string>
+    <string name="label_bank" translatable="false">Bank</string>
+    <string name="lable_reset_device" translatable="false">Reset Device</string>
+    <string name="side_bar_miscall_banking" translatable="false">Missed Call Banking</string>
+    <string name="side_bar_atm_branches" translatable="false">Locate Us</string>
+    <string name="side_bar_contacts" translatable="false">Contact</string>
+    <string name="side_bar_faq" translatable="false">FAQ</string>
+    <string name="side_bar_near_by_atm" translatable="false">ATM</string>
+    <string name="side_bar_near_by_branch" translatable="false">Branch</string>
+    <string name="contact_link_number" translatable="false">9845736616</string>
+    <string name="task_you_want" translatable="false">For Balance enquiry, give a missed call at</string>
+    <string name="directions" translatable="false">Directions</string>
+    <string name="call" translatable="false">Call</string>
+    <string name="whoops" translatable="false">Whoops!</string>
+    <string name="about_global_ime_bank" translatable="false">About Global IME Bank?</string>
+    <string name="no_records_found" translatable="false">No Records Found!</string>
+    <string name="label_bill_payment" translatable="false">Bill Payment</string>
+    <string name="label_mobile_recharge" translatable="false">Mobile Recharge</string>
+    <string name="label_Schedules_payment" translatable="false">Schedule Payment</string>
+    <string name="make_another_transaction" translatable="false">Make Another</string>
+    <string name="transaction_review_account_number" translatable="false">Account Number</string>
+    <string name="transaction_review_recharge_to" translatable="false">Recharge To</string>
+    <string name="transaction_review_amount" translatable="false">Amount</string>
+    <string name="transaction_review_date" translatable="false">Date</string>
+    <string name="transaction_review_charge" translatable="false">Charge</string>
+    <string name="transaction_review_rewards" translatable="false">Rewards</string>
+    <string name="transaction_review_bank" translatable="false">Bank Name</string>
+    <string name="transaction_review_beneficiary_name" translatable="false">Beneficiary Name</string>
+    <string name="transaction_review_remarks" translatable="false">Remarks</string>
+    <string name="location" translatable="false">location</string>
+    <string name="available_hours" translatable="false">Open %1$s hours</string>
+    <string name="service_days" translatable="false">. %1$s Days</string>
+    <string name="service_days_for_list" translatable="false">Service days: %1$s Days</string>
+    <string name="lable_reset_password" translatable="false">Reset Password</string>
+    <string name="lable_change_password" translatable="false">Change Password</string>
+    <string name="lable_change_pin" translatable="false">Change PIN</string>
+    <string name="error_old_pin_match_with_new_one" translatable="false">Old PIN match with new PIN</string>
+    <string name="label_dish_home" translatable="false">Dish Home</string>
+    <string name="from_account" translatable="false">From Account</string>
+    <string name="hint_landline_number" translatable="false">Enter Area Code + Landline Number</string>
+    <string name="invalid_landline_number" translatable="false">Invalid Number</string>
+    <string name="feature_under_development" translatable="false">This Feature is Under Development</string>
+    <string name="label_mobile_recharge_product_name" translatable="false">Mobile Recharege Product Name</string>
+    <string name="take_photo" translatable="false">Take Photo</string>
+    <string name="choose_from_gallery" translatable="false">Choose From Gallery</string>
+    <string name="dates" translatable="false"><![CDATA[2020-03-23 -> 2020-04-22]]></string>
+    <string name="select_account" translatable="false">Select Account</string>
+    <string name="my_statements" translatable="false">My Statements</string>
+    <string name="transaction_history_title" translatable="false">Transaction History</string>
+    <string name="debit" translatable="false">D</string>
+    <string name="debit_card" translatable="false">DEBIT</string>
+
+    <string name="plus" translatable="false">+&#032;</string>
+    <string name="minus" translatable="false">-&#032;</string>
+    <string name="from_date_before_to_date" translatable="false">From Date cannot be after To Date</string>
+    <string name="to_date_before_from_date" translatable="false">To Date cannot be before From Date</string>
+    <string name="statement_not_found" translatable="false">No Statement Found</string>
+    <string name="label_select_date" translatable="false">Select Date</string>
+    <string name="select_start_date" translatable="false">Start Date</string>
+    <string name="select_end_date" translatable="false">End Date</string>
+    <string name="select_date" translatable="false">Select Date</string>
+    <string name="evening_counter_available" translatable="false">Evening counter available</string>
+    <string name="service_days_title" translatable="false">Service days</string>
+    <string name="label_use_pin" translatable="false">Use PIN</string>
+
+    <string name="favorite_bank_account" translatable="false">Account</string>
+    <string name="favorite_merchant" translatable="false">Merchant</string>
+    <string name="favorite_bill_payment" translatable="false">Bill Payment</string>
+    <string name="pref_name" translatable="false">Preference Name</string>
+    <string name="branch_name" translatable="false">Branch Name</string>
+    <string name="account_holder_hint" translatable="false">Account Holder\'s Name</string>
+    <string name="title_favorite" translatable="false">Favourite</string>
+    <string name="account_holder_name" translatable="false">Account Holder\'s Name</string>
+    <string name="label_schedule_start_date" translatable="false">Payment Start Date</string>
+    <string name="error_select_account_number" translatable="false">Please select account number</string>
+    <string name="error_select_schedule_scheme" translatable="false">Please select schedule scheme</string>
+    <string name="error_select_schedule_frequency" translatable="false">Please select schedule frequency</string>
+    <string name="error_select_schedule_start_date" translatable="false">Select schedule start date</string>
+    <string name="label_bank_branch" translatable="false">Branch</string>
+    <string name="title_add" translatable="false">Add</string>
+    <string name="no_bank_account_found" translatable="false">Favorite account not found</string>
+    <string name="empty_balance" translatable="false">000.00</string>
+    <string name="error_bank_branch" translatable="false">Select Branch</string>
+    <string name="delete_item_confirmation" translatable="false">Are you sure you want to delete this entry?</string>
+    <string name="label_add" translatable="false">Add</string>
+    <string name="add_schedule_confirmation_message" translatable="false">Are you sure you want to add new schedule payment</string>
+    <string name="feature_not_active" translatable="false">Feature not available please contact nearest branch</string>
+    <string name="mobile_recharge" translatable="false">Mobile Recharge</string>
+    <string name="tv_payment" translatable="false">TV Recharge</string>
+    <string name="internet_payment" translatable="false">Internet Payment</string>
+
+    <string name="dish_home_recharge" translatable="false">Dish Home Recharge</string>
+    <string name="sim_tv_recharge" translatable="false">SimTV Recharge</string>
+    <string name="adsl_recharge" translatable="false">ADSL Recharge</string>
+    <string name="adsl" translatable="false">ADSL</string>
+    <string name="qr_description" translatable="false">Scan a code to easily transfer or withdraw money</string>
+    <string name="pts" translatable="false">pts</string>
+    <string name="feature_name" translatable="false">Feature Name</string>
+    <string name="landline" translatable="false">PSTN</string>
+    <string name="share_subject" translatable="false">Account Detail Shared</string>
+    <string name="landline_payment" translatable="false">Landline Payment</string>
+    <string name="label_merchant_name" translatable="false">Merchant Name</string>
+    <string name="label_payment_name" translatable="false">Payment Name</string>
+    <string name="label_merchant_payment" translatable="false">Merchant Payment</string>
+    <string name="label_service_provider" translatable="false">Service Provider</string>
+    <string name="label_traffic_payment" translatable="false">Traffic Payment</string>
+    <string name="label_chit_number" translatable="false">Chit Number</string>
+    <string name="label_fiscal_year" translatable="false">Fiscal Year</string>
+
+    <!-- successful values -->
+    <string name="successfully_sent" translatable="false">sent</string>
+    <string name="successfully_paid" translatable="false">paid</string>
+    <string name="successfully_loaded" translatable="false">loaded</string>
+    <string name="successfully_recharged" translatable="false">recharged</string>
+    <string name="successfully_scheduled_merchant" translatable="false">scheduled</string>
+    <string name="successfully_scheduled_account" translatable="false">scheduled</string>
+    <string name="title_add_to_fav" translatable="false">add to favourite</string>
+    <string name="only_two_digit_decimal" translatable="false">Invalid amount</string>
+    <string name="amount_range" translatable="false">Amount Range %1$s-%2$s</string>
+    <string name="date_range_select_duration_message" translatable="false">Date range should be 30 days</string>
+    <string name="see_receipt" translatable="false">SEE RECEIPT</string>
+    <string name="customer_service" translatable="false">Customer Service</string>
+    <string name="receipt_phone" translatable="false">P: +977&#8211;1&#8211;4226247</string>
+    <string name="receipt_email" translatable="false">E: info@gibl.com.np</string>
+    <string name="pref_name_top_up" translatable="false">Topup to</string>
+    <string name="bill_payment_to" translatable="false">" Bill Payment to"</string>
+    <string name="fund_transfer_to" translatable="false">Fund transfer to</string>
+    <string name="decline" translatable="false">DECLINE</string>
+    <string name="workingDay_text" translatable="false">%1$s - %2$s</string>
+    <string name="open_text" translatable="false">OPEN </string>
+    <string name="closed_text" translatable="false">CLOSED </string>
+    <string name="total_amount" translatable="false">Total Amount</string>
+    <string name="product_name" translatable="false">Product Name</string>
+    <string name="label_account_number" translatable="false">Account Number</string>
+    <string name="search_bank" translatable="false">Search your bank</string>
+    <string name="search_transaction" translatable="false">Search your transaction</string>
+    <string name="search_transaction_type" translatable="false">Search transaction type</string>
+    <string name="search_using_keyword" translatable="false">Search using keywords</string>
+    <string name="transaction_review_bank_branch" translatable="false">Bank Branch</string>
+    <string name="transaction_review_from_account" translatable="false">From Account</string>
+    <string name="transaction_review_schedule_scheme" translatable="false">Schedule Scheme</string>
+    <string name="transaction_review_payment_frequency" translatable="false">Frequency</string>
+    <string name="transaction_review_schedule_date" translatable="false">Payment Start Date</string>
+    <string name="transaction_review_discount" translatable="false">Discount</string>
+    <string name="title_registration_charge" translatable="false">" Registration Charge"</string>
+    <string name="title_renew_charge" translatable="false">Renewal Charge</string>
+    <string name="title_profile_change_charge" translatable="false">Profile Change Charge</string>
+    <string name="title_password_change_charge" translatable="false">Password Reset Charge</string>
+    <string name="your_bank_statement_will_appear_here" translatable="false">Your bank statement will\nappear here</string>
+    <string name="your_schedule_payment_will_appear_here" translatable="false">Your schedule payment will\nappear here</string>
+    <string name="your_fix_deposit_will_appear_here" translatable="false">Fixed Deposit List will\nappear here</string>
+    <string name="your_digital_deposit_will_appear_here" translatable="false">Digital Deposit List will\nappear here</string>
+    <string name="your_transaction_history_will_appear_here" translatable="false">Your transaction history will\nappear here</string>
+    <string name="your_cheque_book_history_will_appear_here" translatable="false">Your history will\nappear here</string>
+    <string name="no_favourites_found" translatable="false">No Favourites Found</string>
+    <string name="your_favourite_account_will_nappear_here" translatable="false">Your favourite account will\nappear here</string>
+    <string name="your_favourite_merchant_will_appear_here" translatable="false">Your favourite merchant will\nappear here</string>
+    <string name="label_select_merchant" translatable="false">Please Select Merchant</string>
+    <string name="lable_number" translatable="false">Number</string>
+    <string name="error_label_not_valid" translatable="false">Number not valid</string>
+    <string name="qr_sharing_discription" translatable="false">What you\'re sharing : \nyour name and your account number</string>
+    <string name="for_security_purposes_change_your_transaction_pin" translatable="false">Change your Transaction PIN</string>
+    <string name="password_policy_list" translatable="false">* Atleast 1 uppercase alphabet\n* Atleast 1 lowercase alphabet\n* Atleast 1 number\n* Atleast 1 special character\n* 8 to 15 characters in length</string>
+    <string name="counter" translatable="false">Counter</string>
+    <string name="sc_number" translatable="false">SC Number</string>
+    <string name="nea_counter" translatable="false">Branch</string>
+    <string name="consumer_id" translatable="false">Consumer ID</string>
+    <string name="search_counter" translatable="false">Search Counter</string>
+    <string name="search_nea_counter" translatable="false">Search NEA Counter</string>
+    <string name="see_bill" translatable="false">See Bill</string>
+    <string name="bill" translatable="false">Bill</string>
+    <string name="notification" translatable="false">Notification</string>
+    <string name="alerts" translatable="false">Alerts</string>
+    <string name="flight" translatable="false">Flights</string>
+    <string name="message" translatable="false">Message</string>
+    <string name="load_money_to" translatable="false">Load to</string>
+    <string name="notification_will_appear_here" translatable="false">Notification will appear here</string>
+    <string name="notification_not_found_description" translatable="false">We will notify you when something interesting happens</string>
+    <string name="message_will_appear_here" translatable="false">Message will appear here</string>
+    <string name="exchange_rate_will_appear_here" translatable="false">Exchange rate will appear here</string>
+    <string name="message_not_found_description" translatable="false">We will notify you when something interesting happens</string>
+    <string name="title_and_date" translatable="false">%1$s&#160;%2$s</string>
+    <string name="title_nea_payment" translatable="false">NEA Payment</string>
+    <string name="title_khanepani_payment" translatable="false">Khanepani Payment</string>
+    <string name="nea_payment_header_notice" translatable="false">NEA payments available from 10am to 12am midnight.</string>
+    <string name="settle_payment_header_notice" translatable="false"> The payment can take 12 to 48 hours to be settled</string>
+
+    <string name="label_nea" translatable="false">NEA</string>
+    <string name="label_khanepani" translatable="false">Khanepani</string>
+    <string name="label_vianet" translatable="false">Vianet Payment</string>
+    <string name="label_classic_tech" translatable="false">Classic Tech Payment</string>
+    <string name="date_passed" translatable="false">Schedule Date already passed</string>
+    <string name="voucher_number" translatable="false">Voucher Number</string>
+    <string name="submission_number" translatable="false">Submission Number</string>
+    <string name="organization_name" translatable="false">Organization Name</string>
+    <string name="cit_phone_number" translatable="false">CIT Phone number</string>
+    <string name="cit_number" translatable="false">CIT Number</string>
+    <string name="cit_name" translatable="false">CIT Name</string>
+    <string name="error_cit_phone_number" translatable="false">Please Provie CIT Phone Number</string>
+    <string name="load_to_ime_pay" translatable="false">Load to IME Pay -</string>
+    <string name="load_to_khalti" translatable="false">Load to Khalti</string>
+    <string name="load_to_esewa" translatable="false">Load to eSewa</string>
+    <string name="name_khalti" translatable="false">Khalti</string>
+    <string name="name_ime_pay" translatable="false">IME Pay</string>
+    <string name="error_voucher_number" translatable="false">Invalid voucher number</string>
+    <string name="error_fiscal_year" translatable="false">Invalid Fiscal Year</string>
+    <string name="nea_counter_not_found_message" translatable="false">NEA Counters Not Found</string>
+    <string name="nea_counter_not_found" translatable="false">NEA Counters Not Found</string>
+    <string name="organization_list_not_found" translatable="false">Organization List Not Found</string>
+    <string name="label_load_to_ime_pay" translatable="false">IME Pay</string>
+    <string name="total_amount_npr" translatable="false">Total Amount: NPR</string>
+    <string name="side_bar_more" translatable="false">More</string>
+    <string name="missed_call_banking" translatable="false">Missed Call Banking</string>
+    <string name="exchange_rates" translatable="false">Exchange Rates</string>
+    <string name="faqs" translatable="false">FAQs</string>
+    <string name="ime_pay_number" translatable="false">IME Pay Number</string>
+    <string name="incorrect_load_to_ime_pay_mobile_number" translatable="false">Incorrect IME Pay Mobile Number</string>
+    <string name="merchant_name" translatable="false">Merchant Name</string>
+    <string name="card_provider" translatable="false">Credit Card Provider</string>
+    <string name="card_holder_name" translatable="false">Card Holder\'s Name</string>
+    <string name="credit_card_number" translatable="false">Credit Card Number</string>
+    <string name="card_prefix" translatable="false">Prefix</string>
+    <string name="credit_card_payment" translatable="false">Credit Card Payment</string>
+    <string name="invalid_name" translatable="false">Invalid Name</string>
+    <string name="transaction_review_card_provider_name" translatable="false">Credit Card Provider</string>
+    <string name="successful_credit_card_payment" translatable="false">Credit Card Payment to</string>
+    <string name="transaction_review_credit_card_number" translatable="false">Credit Card Number</string>
+    <string name="transaction_review_card_holder_name" translatable="false">Card Holder\'s Name</string>
+    <string name="confirm_password" translatable="false">Confirm Password</string>
+    <string name="enter_your_password_to_setup_fingerprint" translatable="false">Enter your password to setup fingerprint</string>
+    <string name="label_favorite_description" translatable="false">Enter a nick name or a short name for preference</string>
+    <string name="fund_transfer" translatable="false">Fund Transfer</string>
+    <string name="payment_successful" translatable="false">Payment Successful</string>
+    <string name="schedule_successful" translatable="false">Schedule Successful</string>
+    <string name="statement" translatable="false">Statement</string>
+    <string name="invalid_card_number" translatable="false">Invalid Card Number</string>
+    <string name="card_number" translatable="false">Card No. </string>
+    <string name="credit_card_provider_name" translatable="false">Credit Card Provider\nName</string>
+    <string name="enter_your_date_of_birth" translatable="false">Enter your Date of Birth</string>
+    <string name="date_of_birth" translatable="false">Date of Birth</string>
+    <string name="validate" translatable="false">VALIDATE</string>
+    <string name="for_security_purpose_please_write_you_dob_below" translatable="false">For security purpose, please write you DOB below.</string>
+    <string name="reset_pin" translatable="false">Reset PIN</string>
+
+    <string name="please_enter_your_dob" translatable="false">Please enter your DOB</string>
+    <string name="create_a_new_transaction_pin" translatable="false">Create a new Transaction PIN</string>
+    <string name="new_pin" translatable="false">New PIN</string>
+    <string name="re_enter_new_pin" translatable="false">Re-enter new PIN</string>
+    <string name="enable_fcm" translatable="false">Enable push notification</string>
+    <string name="login_choices" translatable="false">Which products would you\nlike to apply for?</string>
+    <string name="online_application" translatable="false">Online Application</string>
+    <string name="title_favorite_account" translatable="false">Favorite Account</string>
+    <string name="title_schedule" translatable="false">Schedule</string>
+    <string name="identification_type" translatable="false">Identification Type</string>
+    <string name="citizenship_number" translatable="false">Citizenship Number</string>
+    <string name="citizenship" translatable="false">Citizenship</string>
+    <string name="account_name" translatable="false">Account Name</string>
+    <string name="email_field_optional" translatable="false">Email (optional)</string>
+    <string name="enter_your_details" translatable="false">Enter your details</string>
+    <string name="currency" translatable="false">Currency</string>
+    <string name="distance_km_away" translatable="false">distance km away</string>
+    <string name="exchange_rate_not_found" translatable="false">Exchange Rate Not Found</string>
+    <string name="last_updated" translatable="false">Last updated:</string>
+    <string name="root_of_bank" translatable="false">bank/</string>
+    <string name="root_of_currency" translatable="false">currency/</string>
+    <string name="no_transactions_yet" translatable="false">"No Transaction Yet! "</string>
+    <string name="your_transaction_will_appear_here" translatable="false">Your transaction will appear here</string>
+    <string name="no_favourites_yet" translatable="false">No Favourites Yet!</string>
+    <string name="no_favorite_message" translatable="false">You haven\'t marked any favourite</string>
+    <string name="full_name" translatable="false">Full Name</string>
+    <string name="complain_category" translatable="false">Complain Category</string>
+    <string name="cheque_book_number" translatable="false">Cheque Book Number</string>
+    <string name="number_of_leaves" translatable="false">Number of Leaves</string>
+    <string name="reason" translatable="false">Reason</string>
+    <string name="cheque_book_account_number" translatable="false">Account Number</string>
+    <string name="cheque_stop_request" translatable="false">Cheque Stop / Request</string>
+    <string name="tenure" translatable="false">Tenure (in months)</string>
+    <string name="interest_rate" translatable="false">Interest Rate</string>
+    <string name="email_address" translatable="false">Email Address</string>
+    <string name="nominee_name" translatable="false">Nominee Name (optional)</string>
+    <string name="nominee_relation" translatable="false">Nominee Relation</string>
+    <string name="stop_cheque_notice" translatable="false">Stop Payment fee of Rs. 200 will be charged for each stop payment request</string>
+    <string name="cheque_book_stop_notice_line2" translatable="false">Cheques already processed cannot be stopped.</string>
+    <string name="cheque_pickup_branch" translatable="false">Cheque Pickup Branch</string>
+    <string name="statement_pickup_branch" translatable="false">Statement Pickup Branch</string>
+    <string name="cheque_book_stop" translatable="false">Cheque Book Stop</string>
+    <string name="cheque_book_request" translatable="false">Cheque Book Request</string>
+    <string name="court_order_stop" translatable="false">Court Order</string>
+    <string name="lost_stop" translatable="false">Lost</string>
+    <string name="misplaced_stop" translatable="false">Misplaced</string>
+    <string name="stolen_stop" translatable="false">Stolen</string>
+    <string name="stop_payment_stop" translatable="false">Stop Payment</string>
+    <string name="wrongly_delivered_stop" translatable="false">Wrongly Delivered</string>
+    <string name="lost_request" translatable="false">Lost</string>
+    <string name="damaged_request" translatable="false">Damaged</string>
+    <string name="finished_request" translatable="false">Finished</string>
+    <string name="services" translatable="false">Services</string>
+    <string name="debit_services">Debit Card Services</string>
+    <string name="credit_services">Credit Card Services</string>
+    <string name="hide" translatable="false">HIDE</string>
+    <string name="stay_tune" translatable="false">Stay Tuned !</string>
+    <string name="development_in_progress" translatable="false">Development in Progress</string>
+    <string name="pickup_branch" translatable="false">Pickup Branch</string>
+    <string name="statement_request" translatable="false">Statement Request</string>
+    <string name="confirm_new_password" translatable="false">Confirm New Password</string>
+    <string name="fixed_deposit" translatable="false">Fixed Deposit</string>
+    <string name="deposit_amount" translatable="false">Deposit Amount</string>
+    <string name="confirm_request" translatable="false">Are you sure you want to confirm the request?</string>
+    <string name="confirmation" translatable="false">Confirmation</string>
+    <string name="cc_prefix_variable" translatable="false">%1$s-</string>
+    <string name="subscribe_confirmation_statement" translatable="false">Are you sure you want to subscribe monthly statement ?</string>
+    <string name="unsubscribe_confirmation_statement" translatable="false">Are you sure you want to unsubscribe monthly statement ?</string>
+    <string name="biometric_enable_description" translatable="false">Next time, Would you like to login faster using your fingerprint?</string>
+    <string name="biometric_enable_title" translatable="false">Link Biometrics with account</string>
+    <string name="online_services" translatable="false">Online Services</string>
+    <string name="other_services" translatable="false">Other Services</string>
+    <string name="visit_token" translatable="false">Visit Token</string>
+    <string name="eVoucher" translatable="false">E-Voucher</string>
+    <string name="biometric_transaction_enable_description" translatable="false">Would you like to make transaction faster using your
+        fingerprint?</string>
+    <string name="check_for_update" translatable="false">Check for Update</string>
+    <string name="wallet_pin" translatable="false">Wallet PIN</string>
+    <string name="lable_address" translatable="false">Address</string>
+    <string name="customer_id" translatable="false">Customer ID</string>
+    <string name="select_package" translatable="false">Select Package</string>
+    <string name="select_plan" translatable="false">Select Plan</string>
+    <string name="actual_balance" translatable="false">Actual Balance</string>
+    <string name="available_balance" translatable="false">Available Balance</string>
+    <string name="dummy_balance" translatable="false">XXX.XX</string>
+    <string name="dummy_account_number" translatable="false">XXXXXXXXXXXXX</string>
+    <string name="update_email" translatable="false">Update Email</string>
+    <string name="email_update_description" translatable="false">Enter an email address</string>
+    <string name="email_not_verified_message" translatable="false">No email associated with the account. Please verify your email</string>
+    <string name="no_email_associated_with_the_account" translatable="false">No email associated with the account</string>
+    <string name="on_board_register" translatable="false">"Registration"</string>
+    <string name="userid" translatable="false">UserId</string>
+    <string name="ftth_payment" translatable="false">FTTH Payment</string>
+    <string name="wimax_payment" translatable="false">WIMAX Payment</string>
+    <string name="accured_interest" translatable="false">Accrued Interest</string>
+    <string name="view_statement" translatable="false">View Statement</string>
+    <string name="subscribe_statement" translatable="false">Subscribe Statement</string>
+    <string name="unsubscribe_statement" translatable="false">Unsubscribe Statement</string>
+    <string name="label_my_qr" translatable="false">My QR</string>
+    <string name="deposit_period" translatable="false">Deposit Period</string>
+    <string name="loan_application_title" translatable="false">Loan Application</string>
+    <string name="loan_application_history_title" translatable="false">History</string>
+    <string name="label_login_register" translatable="false">Register Now</string>
+    <string name="loan_allowed_amount" translatable="false">Loan Allowed Amount</string>
+    <string name="maturity_date" translatable="false">Maturity Date</string>
+    <string name="label_loan_application" translatable="false">Loan Application</string>
+    <string name="loan_application_description" translatable="false">You\'re not eligible to apply for Loan against Fixed Deposit.</string>
+    <string name="loan_not_eligible_application" translatable="false">You\'re not eligible to apply for Loan.</string>
+    <string name="loan_maturity_date" translatable="false">Loan Maturity Date</string>
+    <string name="loan_amount" translatable="false">Loan Amount</string>
+    <string name="divider_pipe" translatable="false"><![CDATA[<b><font color=#EFF0FA>|</font></b>]]></string>
+    <string name="qr_not_generated_message_for_unauth_user" translatable="false">Your QR is only generated after the first login. Please login first</string>
+    <string name="info_share_account_holder_name" translatable="false">A/C Holder Name:</string>
+    <string name="info_share_account_number" translatable="false">Account Number:</string>
+    <string name="back_to_login" translatable="false">Back to Login</string>
+    <string name="advance_notice" translatable="false">Note: You have %1$s days left, you can make ADVANCE payment</string>
+    <string name="eligibility" translatable="false">Eligibility:</string>
+    <string name="age_group" translatable="false">"Age Group : "</string>
+    <string name="district" translatable="false">"District : "</string>
+    <string name="province" translatable="false">"Province : "</string>
+    <string name="gender" translatable="false">"Gender : "</string>
+    <string name="apply_for_fix_deposit_account" translatable="false">Apply for Fixed Deposit account</string>
+    <string name="loan_outstanding_balance" translatable="false">Loan Outstanding Balance</string>
+    <string name="next_emi_date" translatable="false">Next EMI Date</string>
+    <string name="emi_amount" translatable="false">EMI Amount</string>
+    <string name="account_balance" translatable="false">Account Balance</string>
+    <string name="deposited_period" translatable="false">Deposited Period</string>
+    <string name="loan_against_fd_cancel_confirmaion_message" translatable="false">Are your sure you want to cancel the loan application?</string>
+    <string name="item_list_edit" translatable="false">Edit</string>
+    <string name="total_amount_rs" translatable="false">Total Amount (Rs)</string>
+    <string name="total_advance_amount" translatable="false">Total Advance Amount</string>
+    <string name="scheme_name" translatable="false">Scheme Name</string>
+    <string name="loan_applied_successful" translatable="false">Loan Applied Successful</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="customerName" translatable="false">Customer Name</string>
+    <string name="package_for_isp" translatable="false">Package</string>
+    <string name="plan_for_isp" translatable="false">Plan</string>
+    <string name="new_plan" translatable="false">New Plan</string>
+    <string name="plan_name_for_isp" translatable="false">Plan Name</string>
+    <string name="government_payment_header_text" translatable="false">"Government Service Payment "</string>
+    <string name="government_payment_search_hint_text" translatable="false">Search Government Service</string>
+    <string name="tv_payment_header_text" translatable="false">TV Payment Provider</string>
+    <string name="tv_payment_search_hint_text" translatable="false">Search TV</string>
+    <string name="utility_payment_header_text" translatable="false">Utility Payment Service</string>
+    <string name="utility_payment_search_hint_text" translatable="false">Search Utility Service</string>
+    <string name="landline_adsl_payment_header_text" translatable="false">Landlinr and ADSL Service Payment</string>
+    <string name="landline_adsl_payment_search_hint_text" translatable="false">Search Landline/ADSL Servie</string>
+    <string name="direct_merchant_payment_header_text" translatable="false">Direct Merchant Payment</string>
+    <string name="direct_merchant_payment_search_hint_text" translatable="false">Search Direct Merchant</string>
+    <string name="isp_payment_header_text" translatable="false">Internet Servie Providers</string>
+    <string name="isp_payment_search_hint_text" translatable="false">Search ISP</string>
+    <string name="cable_car_payment_header_text" translatable="false">Cable Car Ticketing</string>
+    <string name="cable_car_payment_search_hint_text" translatable="false">Search CableCar</string>
+    <string name="active" translatable="false">ACTIVE</string>
+    <string name="two_way" translatable="false">Two Way</string>
+    <string name="one_way" translatable="false">One Way</string>
+    <string name="number_of_travellers" translatable="false">Number of Travellers</string>
+    <string name="set_top_box_number" translatable="false">Set Top Box Number / CAS ID</string>
+    <string name="invalid_set_top_box_number" translatable="false">Invalid Set Top Box Number</string>
+    <string name="exceed_day" translatable="false">Exceed Day</string>
+    <string name="chip_id_vsc_id_card_id" translatable="false">Chip ID / VSC ID / Card ID</string>
+    <string name="label_Balance" translatable="false">Balance</string>
+    <string name="label_user_full_name" translatable="false">User Full Name</string>
+    <string name="invalid_user_name" translatable="false">Invalid User Name</string>
+    <string name="invalid_user_full_name" translatable="false">Invalid User Full Name</string>
+    <string name="smart_card_id" translatable="false">Smart Card ID</string>
+    <string name="enter_valid_smart_card_id" translatable="false">Enter valid Smart Card ID</string>
+    <string name="purse_amount" translatable="false">Purse Amount</string>
+    <string name="label_subscription" translatable="false">Subscription</string>
+    <string name="invalid_package" translatable="false">Please Select Package</string>
+    <string name="myTickets" translatable="false">My Tickets</string>
+    <string name="label_cable_car_history" translatable="false">My Tickets</string>
+    <string name="client_full_name" translatable="false">Client Full Name</string>
+    <string name="broker_client_id" translatable="false">Client ID</string>
+    <string name="select_stock_broker_for_payment" translatable="false">Select stock broker for payment</string>
+    <string name="invalid_broker_name" translatable="false">Please selcet Broker</string>
+    <string name="invalid_client_id" translatable="false">Please enter valid client ID</string>
+    <string name="broker_payment_header_text" translatable="false">All brokers</string>
+    <string name="brokers_payment_search_hint_text" translatable="false">Search Brokers</string>
+    <string name="demat_payment_search_hint_text" translatable="false">Search Demat</string>
+    <string name="mero_share_payment_search_hint_text" translatable="false">Search Mero Share</string>
+    <string name="label_client_id" translatable="false">Client ID</string>
+    <string name="label_duration" translatable="false">Duration</string>
+    <string name="invalid_service_name" translatable="false">Invalid Service Name</string>
+    <string name="invalid_duration" translatable="false">Please select duration</string>
+    <string name="broker_name" translatable="false">Broker Name</string>
+    <string name="select_loan_type" translatable="false">Select Loan Type</string>
+    <string name="loan_type" translatable="false">Loan Type</string>
+    <string name="error_select_loan_type" translatable="false">Please select Loan Type</string>
+    <string name="select_service_provider" translatable="false">Select Service Provider</string>
+    <string name="error_provider" translatable="false">Please select Provider</string>
+    <string name="error_select_service_provider" translatable="false">Please selcet Service Provider</string>
+    <string name="error_chit_number" translatable="false">Invalid Chit number</string>
+    <string name="error_fiscal_number" translatable="false">Invalid Fiscal Year</string>
+    <string name="enter_traveller" translatable="false">Please selcet Traveller Count</string>
+    <string name="demat_payment_header_text" translatable="false">All Demat</string>
+    <string name="meroshare_payment_header_text" translatable="false">All Mero Share</string>
+    <string name="label_trip_type" translatable="false">Trip Type</string>
+    <string name="cable_car_ticketing_details" translatable="false">Tickets once purchased are non-refundable.\n\nValidity of ticket remains up to 7
+        days from the date of purchase.\n\nValid Student ID Card compulsory before boarding.\n\nFor children below 3 ft no charges
+        applicable.\n\nProof of age compulsory before boarding for senior Citizens.</string>
+    <string name="data" translatable="false">DATA</string>
+    <string name="label_only_qr" translatable="false">QR</string>
+    <string name="profile_menu_icon_title" translatable="false">Profile Icon Menu</string>
+    <string name="share_account_info" translatable="false">Share Details</string>
+    <string name="label_copy_account_details" translatable="false">Copy Details</string>
+    <string name="label_copied_account_details" translatable="false">Account details copied</string>
+    <string name="provider_bank_name" translatable="false">GLOBAL IME BANK</string>
+    <string name="dp_id" translatable="false">DP ID</string>
+    <string name="filtersType" translatable="false">Filter Type</string>
+    <string name="resetAll" translatable="false">Reset All</string>
+    <string name="cit_register_name" translatable="false">Register Name</string>
+    <string name="search_ticket" translatable="false">Search your tickets</string>
+    <string name="expiry_date" translatable="false">Expiry Date</string>
+    <string name="monthly_charge" translatable="false">Monthly Charge</string>
+    <string name="key_plan_name" translatable="false">Plan Name</string>
+    <string name="key_plan_expiry" translatable="false">Plan Expiry</string>
+    <string name="key_bill_date" translatable="false">Bill Date</string>
+    <string name="key_current_plan" translatable="false">Current Plan</string>
+    <string name="key_new_plan" translatable="false">New Plan</string>
+    <string name="key_exceed_days" translatable="false">Exceed Days</string>
+    <string name="select_or_enter_amount" translatable="false">Select or Enter Amount</string>
+    <string name="transaction_success" translatable="false">Success</string>
+    <string name="transaction_failed" translatable="false">Failed</string>
+    <string name="transaction_suspicious" translatable="false">Suspicious</string>
+    <string name="cas_chip_id_or_customer_id" translatable="false">CAS/Chip ID or Customer ID</string>
+    <string name="label_download_receipt" translatable="false">DOWNLOAD RECEIPT</string>
+    <string name="no_tickets" translatable="false">No Tickets</string>
+    <string name="no_ticket_details" translatable="false">Tickets will appear here.</string>
+    <string name="rb_date_AD" translatable="false">AD</string>
+    <string name="rb_date_BS" translatable="false">BS</string>
+    <string name="rb_yes" translatable="false">Yes</string>
+    <string name="rb_no" translatable="false">No</string>
+    <string name="data_n_voice" translatable="false"><![CDATA[Ncell Data & Voice]]></string>
+    <string name="ntc_data_n_voice" translatable="false"><![CDATA[Ntc Data & Voice]]></string>
+    <string name="mobile_number" translatable="false">Mobile Number</string>
+    <string name="package_price" translatable="false">Package price</string>
+    <string name="ncell_user_guide" translatable="false">Enter 10 digit Ncell mobile number</string>
+    <string name="voice_n_sms" translatable="false"><![CDATA[VOICE & SMS]]></string>
+    <string name="show_more" translatable="false">Show More</string>
+    <string name="buy_now" translatable="false">Buy Now</string>
+    <string name="show_less" translatable="false">Show Less</string>
+    <string name="days" translatable="false">Days</string>
+    <string name="day" translatable="false">Day</string>
+    <string name="nprOnly" translatable="false">NPR.</string>
+    <string name="search_ncell_data_packages" translatable="false">Search ncell data packages</string>
+    <string name="package_name" translatable="false">Package Name</string>
+    <string name="package_type" translatable="false">Package Type</string>
+    <string name="insurance_type" translatable="false">Insurance Type</string>
+    <string name="fine_amount_sum_insured" translatable="false">Fine Amount/Sum Insured</string>
+    <string name="redo_transaction" translatable="false">Redo Transaction</string>
+    <string name="download_receipt" translatable="false">Download Receipt</string>
+    <string name="delete_transaction" translatable="false">Delete Transaction</string>
+    <string name="label_primary" translatable="false">Primary</string>
+    <string name="menu_item_statement_download" translatable="false">Statement Download</string>
+    <string name="new_profile_photo" translatable="false">New Profile Photo</string>
+    <string name="remove_profile_photo" translatable="false">Remove Profile Photo</string>
+    <string name="em_dash_line" translatable="false">—</string>
+    <string name="label_thirty_days_transaction" translatable="false">30 days transaction</string>
+    <string name="privacy_policy" translatable="false">Privacy Policy</string>
+    <string name="esewa_number" translatable="false">eSewa Number</string>
+    <string name="khalti_number" translatable="false">Khalti Number</string>
+    <string name="wallet_id" translatable="false">Wallet ID</string>
+    <string name="campaigns" translatable="false">Campaigns</string>
+    <string name="copyright" translatable="false">Global IME Bank | Copyright © </string>
+    <string name="all_rights_reserved" translatable="false">All rights reserved.</string>
+    <string name="on_board_get_started" translatable="false">Get Started</string>
+    <string name="reset_device_new_description" translatable="false">New device detected!\nPlease reset device to continue</string>
+    <string name="registration_terms_and_condition" translatable="false">Please accept Terms &amp; Conditions to Continue</string>
+    <string name="i_agree_registration_terms_and_condition" translatable="false">I agree to the <u>Terms &amp; Conditions</u></string>
+    <string name="support_services" translatable="false">Support Services</string>
+    <string name="forgot_your_pin" translatable="false">Forgot your PIN?</string>
+    <string name="search_your_merchant" translatable="false">Search your merchant</string>
+    <string name="label_session_expired" translatable="false">"Session Expired !"</string>
+    <string name="monthly_topup_amount" translatable="false">Monthly Topup Amount</string>
+    <string name="pension_card_number" translatable="false">Pension Card Number</string>
+    <string name="i_agree_term" translatable="false">I agree to the <u>Terms &amp; Conditions</u></string>
+    <string name="terms_condition" translatable="false"><![CDATA[Terms & Condition]]></string>
+    <string name="label_do_not_have_login" translatable="false">Don\'t have a Login?</string>
+    <string name="create_4_digit_pin" translatable="false">Create 4 digit PIN</string>
+    <string name="confirm_pin" translatable="false">Confirm PIN</string>
+    <string name="payment" translatable="false">Payment</string>
+    <string name="select_device" translatable="false">Select Device</string>
+    <string name="userName" translatable="false">User Name</string>
+    <string name="deviceId" translatable="false">Device Id</string>
+    <string name="label_qr_with_draw" translatable="false">QR Withdraw</string>
+    <string name="label_error" translatable="false">Error</string>
+    <string name="biometric_error_security_update_required_message" translatable="false">It seems you have added new fingerprint. For security concern your fingerprint authentication has been disabled.</string>
+    <string name="nchl_payment_notice" translatable="false">Beneficiary account validation not enabled for this bank. Transaction once send is irreversible, please confirm.</string>
+    <string name="view_receipt" translatable="false">View Transaction Details</string>
+    <string name="need_help" translatable="false">Need Help? Call:</string>
+    <string name="helpline_number" translatable="false">+977-01-5970600</string>
+    <string name="search_menu_services" translatable="false">Search Services</string>
+    <string name="max_loan_amount" translatable="false">Max Loan Amount</string>
+    <string name="pension_amount" translatable="false">Pension Amount</string>
+    <string name="current_balance" translatable="false">Current Balance</string>
+    <string name="request_amount" translatable="false">Request Amount</string>
+    <string name="insurance_payment_header_text" translatable="false">Available Insurance</string>
+    <string name="insurance_payment_search_hint_text" translatable="false">Search Insurance</string>
+    <string name="label_transaction_dispute" translatable="false">Transaction Dispute</string>
+    <string name="card">Card</string>
+    <string name="balance_enquiry_message">Your available balance is %1$s %2$s</string>
+    <string name="empty_card_hint">Seems like you don\'t have any card associated with your bank account</string>
+    <string name="eligibility_for_debit_card">Eligibility for Debit Card:</string>
+    <string name="debit_card_eligibility">Any person or organization holding an account at Global IME Bank may apply for debit card.</string>
+    <string name="apply_debit_card">Apply debit card</string>
+    <string name="apply_credit_card">Apply Credit card</string>
+    <string name="credit_card_eligiblity">Any Nepalese citizen with age of 18 years and above. Monthly salary income of NPR 15,000 or above. Annual business income of NPR 150,000 or above. Foreign nationals fulfilling requirement of passport certification by Embassy and having valid visa status.</string>
+    <string name="eligibility_for_credit_card">Eligibility for Credit Card:</string>
+    <string name="block_card" translatable="false">Are you sure you want to block this card?</string>
+    <string name="unblock_card" translatable="false">Are you sure you want to unblock this card?</string>
+    <string name="label_block" translatable="false">BLOCK</string>
+    <string name="label_unblock" translatable="false">UNBLOCK</string>
+    <string name="traffic_settle_payment_header_notice" translatable="false">Note: Online fine payment is currently available for Kathmandu, Bhaktapur and Lalitpur district only. To pay via online, your chit (raasid) number must be first updated in Traffic system by Traffic office. Therefore, we suggest you to try only after 24 hours from the date of your chit (raasid).</string>
+    <string name="sms_mode" translatable="false">SMS Mode</string>
+    <string name="sms_mode_account_details" translatable="false">Account Details</string>
+    <string name="sms_mode_balance_inquiry" translatable="false">Balance Inquiry</string>
+    <string name="sms_mode_mini_statement" translatable="false">Mini Statement</string>
+    <string name="sms_mode_available_today_limit" translatable="false">Available Today’s Limit</string>
+    <string name="sms_mode_General_inquiry" translatable="false">General Inquiry</string>
+    <string name="sms_mode_bill_payments" translatable="false">Bill Payments</string>
+    <string name="sms_mode_fund_transfer" translatable="false">Fund Transfer</string>
+    <string name="sms_mode_load_wallet" translatable="false">Load Wallet</string>
+    <string name="sms_mode_top_up" translatable="false">Topup</string>
+    <string name="global_product_will_appear_here" translatable="false">Global product will\nappear here</string>
+    <string name="card_detail" translatable="false">A credit card is a small plastic card issued to users as a system of payment. It allows its holder to buy</string>
+    <string name="read_more" translatable="false">READ MORE</string>
+    <string name="i_m_interested" translatable="false">I’M INTERESTED</string>
+    <string name="intrested_description" translatable="false">For GIBL A/C Holder: Proceed with Login For Non Global IME Bank A/C Holder: Proceed with Register now.</string>
+    <string name="log_in" translatable="false">LOG IN</string>
+    <string name="preferred_branch" translatable="false">Preferred Branch</string>
+    <string name="registration" translatable="false">Registration</string>
+    <string name="registrationSuccess_message" translatable="false">Thank you for your interest! One of our representative will get back to you</string>
+    <string name="back_to_login_screen" translatable="false">BACK TO LOGIN SCREEN</string>
+    <string name="product_success" translatable="false">Your product has been applied successfully</string>
+    <string name="products" translatable="false">Products</string>
+
+    <string name="label_card_detail" translatable="false">Credit Card Details</string>
+    <string name="old_card_pin" translatable="false">Current Card PIN</string>
+    <string name="new_card_pin" translatable="false">New Card PIN</string>
+    <string name="confirm_card_pin" translatable="false">Confirm Card PIN</string>
+    <string name="pin_change" translatable="false">PIN Change</string>
+    <string name="or" translatable="false">OR</string>
+    <string name="products_will_apppear_here" translatable="false">Products will apppear here</string>
+    <string name="block_user_card" translatable="false">Block Card</string>
+    <string name="unblock_user_card" translatable="false">Unblock Card</string>
+    <string name="reset_pin_count" translatable="false">Reset PIN Count</string>
+    <string name="reset_pin_success_message" translatable="false">Your Card PIN Count has been successfully reset</string>
+    <string name="verify_pin" translatable="false">Verify PIN</string>
+    <string name="label_service" translatable="false">Service</string>
+    <string name="label_nea_missed_call_service" translatable="false">NEA Missed Call Service</string>
+
+    <string name="card_total_credit_limit" translatable="false">Total Credit Limit</string>
+    <string name="card_available_credit_limit" translatable="false">Available Credit Limit</string>
+    <string name="card_account_number" translatable="false">Account Number</string>
+    <string name="card_total_dew_amount" translatable="false">Total Amount Due</string>
+    <string name="card_total_debt" translatable="false">Current Total Debt</string>
+    <string name="card_hold_amount" translatable="false">Hold Amount</string>
+    <string name="card_bill_credit_limit" translatable="false">Bill Credit Limit</string>
+    <string name="card_due_date" translatable="false">Due Date</string>
+    <string name="apply_for_credit_card" translatable="false">Apply Credit card</string>
+    <string name="apply_credit_card_url" translatable="false">https://ecard.gibl.com.np:8443/</string>
+    <string name="visa_domestic_card" translatable="false">Visa Debit Card</string>
+    <string name="visa_credit_card" translatable="false">Visa Credit Card</string>
+    <string name="nepal" translatable="false">Nepal (NPR)</string>
+    <string name="india" translatable="false">India (INR)</string>
+    <string name="description" translatable="false">DESCRIPTION</string>
+    <string name="label_transaction_limit" translatable="false">Transaction Limit</string>
+    <string name="credit_card" translatable="false">Credit Card</string>
+    <string name="request_chequebook_not_found" translatable="false">Request Chequebook</string>
+    <string name="you_cannot_request_for_cheque_book" translatable="false">You cannot request for cheque book</string>
+    <string name="label_last_thirty_days_transactions" translatable="false">Last 30 Days Transaction</string>
+    <string name="my_account">My Account</string>
+    <string name="other_account">Other Account</string>
+    <string name="date">Date</string>
+    <string name="deposit_type">Deposit Type</string>
+    <string name="cash_deposit">Cash Deposit</string>
+    <string name="cheque_deposit">Cheque Deposit</string>
+    <string name="npr">NPR</string>
+    <string name="account_holder_self_present">Account Holder Self Present</string>
+    <string name="i_accept_the_terms_and_conditions">I accept the <u>terms and conditions</u> of Global IME Bank</string>
+    <string name="is_the_depositor_account_holder">Is the depositor account holder of Global IME Bank?</string>
+    <string name="depositor_account_number">Depositor Account Number</string>
+    <string name="depositor_account_name">Depositor Account Name</string>
+    <string name="depositor_name">Depositor Name</string>
+    <string name="total">Total</string>
+    <string name="coins">Coins</string>
+    <string name="returns">Return</string>
+    <string name="cash_deposit_request">Cash Deposit Request</string>
+    <string name="cheque_deposit_request">Cheque Deposit Request</string>
+    <string name="thousand">thousand</string>
+    <string name="fiveHundred">fiveHundred</string>
+    <string name="hundreds">hundreds</string>
+    <string name="fifty">fifty</string>
+    <string name="twenty">twenty</string>
+    <string name="ten">ten</string>
+    <string name="five">five</string>
+    <string name="two">two</string>
+    <string name="one">one</string>
+    <string name="cash">CASH</string>
+    <string name="cheque">CHEQUE</string>
+    <string name="successfull">Success</string>
+    <string name="digital_deposit">Digital Deposit</string>
+    <string name="Deposit_successDescription">Please visit the branch to deposit the amount with the reference code:</string>
+    <string name="only_global_ime_bank_cheques_are_accepted">Only Global IME Bank cheques are accepted</string>
+    <string name="cheque_account_number">Cheque Account Number</string>
+    <string name="cheque_account_name">Cheque Account Name</string>
+    <string name="cheque_total_amount">Cheque Total Amount</string>
+    <string name="total_amount_words">Total Amount (words)</string>
+    <string name="txn">TXN ID: %1$s</string>
+    <string name="type_with_date">%1$s |%2$s</string>
+    <string name="tab_deposit" translatable="false">DEPOSIT</string>
+    <string name="tab_history" translatable="false">HISTORY</string>
+    <string name="completed" translatable="false">Completed</string>
+    <string name="cancelled" translatable="false">Cancelled</string>
+    <string name="pending" translatable="false">Pending</string>
+    <string name="amounte_with_currency">%1$s %2$s</string>
+    <string name="title_sms_message">SMS Message</string>
+    <string name="depositable_account" translatable="false">depositableAccount</string>
+    <string name="from_account_title" translatable="false">fromAccount</string>
+    <string name="business">Business</string>
+    <string name="others">Others</string>
+    <string name="topup_amount">Topup Amount</string>
+    <string name="girtd_term_and_condition">I/We hereby declare that the source of fund credited in the Global IME Remitters Term Deposit account is from remittance.</string>
+    <string name="advance_amount_validation">Amount must be greater than 10.00</string>
+    <string name="round_trip" translatable="false">Round Trip</string>
+    <string name="one_way_trip" translatable="false">One Way</string>
+    <string name="mountain_trip" translatable="false">Mountain</string>
+    <string name="departure_date">Departure Date</string>
+    <string name="return_date">Return Date</string>
+    <string name="adults">Adults</string>
+    <string name="over_12_years">Over 12 years</string>
+    <string name="children">Children</string>
+    <string name="_2_12_years">2–12 years</string>
+    <string name="search_flight">search flight</string>
+    <string name="flight_details">Flight Details</string>
+    <string name="book_flight">BOOK NOW</string>
+    <string name="hide_details">Hide Details</string>
+    <string name="refundable">Refundable</string>
+    <string name="non_refundable">Non-Refundable</string>
+    <string name="dash">-</string>
+    <string name="flight_Tab_text" translatable="false">%1$s - %2$s,%3$s</string>
+    <string name="flight_not_found" translatable="false">No Flight Found</string>
+    <string name="select_payment_item" translatable="false">Select Payment</string>
+    <string name="customer_code">Customer Code</string>
+    <string name="insta_loan_application_apply_title">Apply Loan</string>
+    <string name="for_adult">For %1$s Adult</string>
+    <string name="for_children">For %1$s Children</string>
+    <string name="for_adult_and_children">For %1$s Adult and %2$s Children</string>
+    <string name="select_departure_flight_Title">Select Departure Flight</string>
+    <string name="select_departure_flight_desc">Please first select flight for departure</string>
+    <string name="passenger_detail_notice"><![CDATA[Please ensure spelling of passenger name & other details match with government approved IDs as these cannot be changed later. Errors might lead to cancellation penalties.]]></string>
+    <string name="contact_information">Contact Information</string>
+    <string name="passenger_information">Passenger Information</string>
+    <string name="add_new">ADD NEW</string>
+    <string name="nationality">Nationality</string>
+    <string name="passenger_details" translatable="false">Passenger Details</string>
+    <string name="adult_passenger">Adult Passenger</string>
+    <string name="child_passenger">Children Passenger</string>
+    <string name="count_title">%1$s %2$s</string>
+    <string name="passenger">Passenger</string>
+    <string name="passenger_booked">%1$s/%2$s</string>
+    <string name="passenger_list">Passenger List</string>
+    <string name="dealer_code">Dealer Code</string>
+    <string name="dealer_name">Dealer Name</string>
+    <string name="loan_product">Loan Product</string>
+    <string name="sambriddhi_loan">SAMBRIDDHI LOAN</string>
+    <string name="tenure_in_month">Tenure (in months)</string>
+    <string name="repayment_type">Repayment Type</string>
+    <string name="select_payment_depo_office">Select Depo Office</string>
+    <string name="loan_request_amount">Loan Request Amount</string>
+    <string name="departure">Departure</string>
+    <string name="time_range" translatable="false">%1$s-%2$s</string>
+    <string name="flight_list_detail_value" translatable="false">%1$s \u00D7 %2$s</string>
+    <string name="adult_fare" translatable="false">Adult Fare</string>
+    <string name="children_fare" translatable="false">Children Fare</string>
+    <string name="tax" translatable="false">Tax</string>
+    <string name="fuel_charge" translatable="false">Fuel Charge</string>
+    <string name="download_ticket">Download Ticket</string>
+    <string name="download">Download</string>
+
+
+</resources>

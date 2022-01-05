@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+
+    </style>
+
+        <color name="primary_gray">#232A31</color>
+    <color name="tertiary_gray_1">#5B636A</color>
+
+
+
+
+
+
+
+
+    <style name="textStyleHeadline3" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/font_noto_sans_medium</item>
+        <item name="font">@font/font_noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="fontStyle">normal</item>
+
+    </style>
+
+    <style name="textStyleBody2TertiaryGray1" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

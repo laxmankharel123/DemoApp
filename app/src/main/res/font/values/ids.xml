@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="zxing_barcode_scanner" type="id" />
+    <!--<item name="optional" type="id">optional</item>-->
+
+    <item type="id" name="zoomable"/>
+    <item type="id" name="skip_zoom_layout"/>
+</resources>

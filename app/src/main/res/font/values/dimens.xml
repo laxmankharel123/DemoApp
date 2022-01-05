@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="gen_12dp">12dp</dimen>
+
+    <dimen name="gen8dp">8dp</dimen>
+
+    <dimen name="gen2dp">2dp</dimen>
+    <dimen name="gen1dp">1dp</dimen>
+
+    <dimen name="pin_keypad_text_size">@dimen/_17ssp</dimen>
+
+    <dimen name="newPinWidth">@dimen/_75sdp</dimen>
+    <dimen name="newPinHeight">@dimen/_54sdp</dimen>
+    <dimen name="newDimen">@dimen/_26sdp</dimen>
+
+    <dimen name="super_bottom_sheet_width">0dp</dimen>
+    <dimen name="super_bottom_sheet_radius">@dimen/_16sdp</dimen>
+    <dimen name="super_bottom_sheet_peek_height">@dimen/_64sdp</dimen>
+    <item name="super_bottom_sheet_dim" format="float" type="dimen">0.6</item>
+
+
+
+    <dimen name="very_small_text_size" >@dimen/_8sdp</dimen>
+    <dimen name="average_margin1" >@dimen/_13sdp</dimen>
+    <dimen name="average_margin2" >@dimen/_10sdp</dimen>
+    <dimen name="common_margin_top" >@dimen/_20sdp</dimen>
+
+    <dimen name="average_padding1" >@dimen/_13sdp</dimen>
+    <dimen name="average_padding2" >@dimen/_10sdp</dimen>
+
+
+    <dimen name="average_text_size1" >@dimen/_13sdp</dimen>
+    <dimen name="average_text_size2" >@dimen/_10sdp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Custom PIN Entry Edit Text-->
+    <declare-styleable name="GIBLTransactionPINEntryEditText">
+        <attr name="pinAnimationType" format="enum">
+            <enum name="popIn" value="0" />
+            <enum name="fromBottom" value="1" />
+            <enum name="none" value="-1" />
+        </attr>
+        <attr name="pinCharacterMask" format="string" />
+        <attr name="pinRepeatedHint" format="string" />
+        <attr name="pinLineStroke" format="dimension" />
+        <attr name="pinLineStrokeSelected" format="dimension" />
+        <attr name="pinCharacterSpacing" format="dimension" />
+        <attr name="pinTextBottomPadding" format="dimension" />
+        <attr name="pinLineColors" format="color" />
+        <attr name="pinBackgroundDrawable" format="reference" />
+        <attr name="pinBackgroundIsSquare" format="boolean" />
+    </declare-styleable>
+
+    <!--Custom OTP View-->
+    <declare-styleable name="OtpTextView">
+        <attr name="android:textColor" />
+        <attr name="otp" format="string" />
+        <attr name="hide_otp" format="boolean" />
+        <attr name="hide_otp_drawable" format="reference" />
+        <attr name="length" format="integer" />
+        <attr name="width" format="dimension" />
+        <attr name="height" format="dimension" />
+        <attr name="box_margin" format="dimension" />
+        <attr name="box_margin_left" format="dimension" />
+        <attr name="box_margin_right" format="dimension" />
+        <attr name="box_margin_top" format="dimension" />
+        <attr name="box_margin_bottom" format="dimension" />
+        <attr name="bar_height" format="dimension" />
+        <attr name="bar_enabled" format="boolean" />
+        <attr name="otp_box_background" format="reference" />
+        <attr name="otp_box_background_active" format="reference" />
+        <attr name="otp_box_background_inactive" format="reference" />
+        <attr name="otp_box_background_success" format="reference" />
+        <attr name="otp_box_background_error" format="reference" />
+        <attr name="bar_margin" format="dimension" />
+        <attr name="bar_margin_bottom" format="dimension" />
+        <attr name="bar_margin_right" format="dimension" />
+        <attr name="bar_margin_left" format="dimension" />
+        <attr name="bar_margin_top" format="dimension" />
+        <attr name="otp_text_size" format="dimension" />
+        <attr name="bar_active_color" format="color" />
+        <attr name="bar_inactive_color" format="color" />
+        <attr name="bar_error_color" format="color" />
+        <attr name="bar_success_color" format="color" />
+        <attr name="text_typeface" format="reference" />
+
+    </declare-styleable>
+
+    <!--Custom Dot Indicator View-->
+    <attr name="dotsColor" format="color" />
+    <attr name="selectedDotColor" format="color" />
+    <attr name="dotsStrokeColor" format="color" />
+    <attr name="dotsSize" format="dimension" />
+    <attr name="dotsWidthFactor" format="float" />
+    <attr name="dotsSpacing" format="dimension" />
+    <attr name="dotsCornerRadius" format="dimension" />
+    <attr name="dotsStrokeWidth" format="dimension" />
+    <attr name="stiffness" format="float" />
+    <attr name="dampingRatio" format="float" />
+    <attr name="progressMode" format="boolean" />
+
+    <declare-styleable name="DotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="selectedDotColor" />
+        <attr name="dotsSize" />
+        <attr name="dotsWidthFactor" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+        <attr name="progressMode" />
+    </declare-styleable>
+
+    <declare-styleable name="SpringDotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="dotsSize" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+        <attr name="dotsStrokeWidth" />
+        <attr name="dotsStrokeColor" />
+        <attr name="stiffness" />
+        <attr name="dampingRatio" />
+    </declare-styleable>
+
+    <declare-styleable name="WormDotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="dotsSize" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+        <attr name="dotsStrokeWidth" />
+        <attr name="dotsStrokeColor" />
+    </declare-styleable>
+
+
+    <attr name="superBottomSheet_dim" format="float" />
+    <attr name="superBottomSheet_backgroundColor" format="color" />
+    <attr name="superBottomSheet_cornerRadius" format="dimension" />
+    <attr name="superBottomSheet_animateCornerRadius" format="boolean" />
+    <attr name="superBottomSheet_animateStatusBar" format="boolean" />
+    <attr name="superBottomSheet_alwaysExpanded" format="boolean" />
+    <attr name="superBottomSheet_cancelableOnTouchOutside" format="boolean" />
+    <attr name="superBottomSheet_cancelable" format="boolean" />
+    <attr name="superBottomSheet_statusBarColor" format="color" />
+    <attr name="superBottomSheet_peekHeight" format="dimension" />
+
+
+    <declare-styleable name="ZoomageView">
+        <attr name="zoomage_zoomable" format="boolean" />
+        <attr name="zoomage_translatable" format="boolean" />
+        <attr name="zoomage_restrictBounds" format="boolean" />
+        <attr name="zoomage_animateOnReset" format="boolean" />
+        <attr name="zoomage_doubleTapToZoom" format="boolean" />
+        <attr name="zoomage_doubleTapToZoomScaleFactor" format="float" />
+        <attr name="zoomage_autoCenter" format="boolean" />
+        <attr name="zoomage_minScale" format="float" />
+        <attr name="zoomage_maxScale" format="float" />
+        <attr name="zoomage_autoResetMode" format="enum">
+            <enum name="UNDER" value="0" />
+            <enum name="OVER" value="1" />
+            <enum name="ALWAYS" value="2" />
+            <enum name="NEVER" value="3" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>

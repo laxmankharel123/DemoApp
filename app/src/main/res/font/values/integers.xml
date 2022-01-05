@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="bank_acc_holder_name">50</integer>
+    <integer name="scanner_rect_width">500</integer>
+    <integer name="scanner_rect_height">300</integer>
+    <integer name="scan_line_width">500</integer>
+    <integer name="scan_line_height">300</integer>
+    <integer name="line_width">4</integer>
+    <integer name="line_speed">5</integer>
+</resources>
