@@ -12,4 +12,5 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="unlimited_flims_tv_programmes_and_more">Unlimited Flims, TV Programmes and More</string>
     <string name="watch_anywhere_cancel_at_any_time">Watch anywhere . Cancel at any time</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
 </resources>

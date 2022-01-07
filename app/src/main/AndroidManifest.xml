@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.demoapp">
+    
+
+
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -12,16 +16,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".LoginBoardActivity.SignInActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <activity
             android:name=".LoginBoardActivity.LoginModelUi"
+            android:screenOrientation="portrait"
             android:exported="true"
             android:label="@string/title_activity_login_model"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MovieBoard.MovieBoardActivity"
+            android:screenOrientation="portrait"
             android:exported="true" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".SplashScreen.SplashScreen"
+            android:screenOrientation="portrait"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
