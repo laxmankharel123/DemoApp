@@ -7,17 +7,16 @@
     tools:context=".LoginBoardActivity.LoginModelUi">
 
     <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/loginTab"
+        android:id="@+id/loginTabBarView"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navigationIcon="@drawable/backarrow_xml"
-        >
+        app:navigationIcon="@drawable/backarrow_xml">
+
 
     </com.google.android.material.appbar.MaterialToolbar>
-
 
 
     <com.google.android.material.textview.MaterialTextView
@@ -28,39 +27,39 @@
         android:layout_marginTop="@dimen/_16sdp"
         android:text="Enter Your email and password to start your membership"
         android:textAlignment="viewStart"
-        android:textStyle="bold"
         android:textAppearance="@style/textStyleHeadline3"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/loginTab" />
+        app:layout_constraintTop_toBottomOf="@id/loginTabBarView" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/secondText"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
         android:text="Just one steps and you're finished! We hate paperwork, too."
         android:textAlignment="textStart"
-        android:textStyle="normal"
         android:textAppearance="@style/textStyleBody2TertiaryGray1"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginEnd="@dimen/_16sdp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/firstText"
-        android:layout_marginTop="@dimen/_8sdp"/>
+        app:layout_constraintTop_toBottomOf="@id/firstText" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/createText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/secondText"
-        app:layout_constraintStart_toStartOf="@id/secondText"
         android:layout_marginTop="@dimen/_16sdp"
         android:text="Create Your Account."
+        android:textAlignment="textStart"
         android:textAppearance="@style/textStyleHeadline3"
         android:textStyle="bold"
-        android:textAlignment="textStart">
+        app:layout_constraintStart_toStartOf="@id/secondText"
+        app:layout_constraintTop_toBottomOf="@id/secondText">
 
     </com.google.android.material.textview.MaterialTextView>
 
@@ -69,17 +68,16 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_8sdp"
-        android:hint="Email"
         android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_16sdp"
+        android:hint="Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/createText"
-        >
+        app:layout_constraintTop_toBottomOf="@id/createText">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/emailId"
+            android:id="@+id/emailId1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:imeOptions="actionNext"
@@ -92,20 +90,53 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginEnd="@dimen/_16sdp"
         android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
         android:hint="password"
         app:endIconMode="password_toggle"
         app:layout_constraintTop_toBottomOf="@+id/userId">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/passWord"
+            android:id="@+id/passWord1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:imeOptions="actionDone"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/HaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Have an account?"
+        android:textAlignment="center"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_35sdp"
+        app:layout_constraintStart_toStartOf="@id/password"
+       app:layout_constraintEnd_toStartOf="@id/signIn"
+        app:layout_constraintEnd_toEndOf="@id/password"
+        app:layout_constraintTop_toBottomOf="@id/password">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text=" sign_In"
+        android:textColor="#FF8A80"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="@id/HaveAccount"
+        app:layout_constraintStart_toEndOf="@id/HaveAccount"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        app:layout_constraintTop_toTopOf="@+id/HaveAccount">
+
+    </com.google.android.material.textview.MaterialTextView>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/register"
@@ -114,11 +145,11 @@
         android:layout_marginLeft="@dimen/_16sdp"
         android:layout_marginRight="@dimen/_16sdp"
         android:layout_marginBottom="@dimen/_32sdp"
+        android:background="@drawable/rounded_shape"
+        android:padding="@dimen/_10sdp"
         android:text="Registered"
         android:textSize="@dimen/_16sdp"
-        android:padding="@dimen/_10sdp"
         app:backgroundTint="#FF0000"
-        android:background="@drawable/rounded_shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
