@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetailsActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageDetails"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/splashscreen">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Movie Name:"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/textStyleBody2TertiaryGray1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintEnd_toStartOf="@id/movieTitle"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageDetails">
+
+        </com.google.android.material.textview.MaterialTextView>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/movieTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            app:layout_constraintTop_toTopOf="@id/TitleText"
+            app:layout_constraintBottom_toBottomOf="@id/TitleText"
+            app:layout_constraintStart_toEndOf="@id/TitleText"
+            app:layout_constraintTop_toBottomOf="@id/imageDetails"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/textStyleHeadline3"
+            android:text="title"
+            >
+
+        </com.google.android.material.textview.MaterialTextView>
+
+
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/movieDescription"
+            android:layout_width="match_parent"
+            android:textAlignment="textStart"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="@id/movieTitle"
+            app:layout_constraintEnd_toEndOf="@id/movieTitle"
+            app:layout_constraintTop_toBottomOf="@id/movieTitle"
+            android:textAppearance="@style/textStyleBody2TertiaryGray1"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="normal"
+            android:text="Description">
+        </com.google.android.material.textview.MaterialTextView>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/releaseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Release Date:"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/textStyleHeadline3"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/releaseDate"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/movieDescription">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/releaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="release Date"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:textAppearance="@style/textStyleBody2TertiaryGray1"
+            app:layout_constraintBottom_toBottomOf="@id/releaseText"
+            app:layout_constraintStart_toEndOf="@id/releaseText"
+
+            app:layout_constraintTop_toBottomOf="@id/movieDescription"
+            app:layout_constraintTop_toTopOf="@id/releaseText"
+            app:layout_constraintVertical_bias="0.571">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:background="@drawable/rounded_shape"
+            android:text="Book Now"
+            android:textAppearance="@style/textStyleHeadline3"
+            android:textSize="@dimen/_16sdp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/releaseDate"
+            android:layout_marginTop="@dimen/_150sdp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
+
