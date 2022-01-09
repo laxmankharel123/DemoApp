@@ -3,7 +3,6 @@ package com.example.demoapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -53,6 +52,9 @@ class MainActivity : AppCompatActivity() {
         popularMovieAdapter = MovieAdapter(listOf())
         popularMovies.adapter = popularMovieAdapter
 
+
+
+
         MoviesRepository.getPopularMovies(
             onSuccess = ::onPopularMoviesFetched,
             onError = ::onError
@@ -72,7 +74,7 @@ class MainActivity : AppCompatActivity() {
         if (doubleBackToExitPressedOnce)
             this.finish()
          else {
-            Toast.makeText(this, "Press back again to leave the app.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Press LogOut Button to leave the app.", Toast.LENGTH_LONG).show()
         }
         backPressedTime = System.currentTimeMillis()
     }

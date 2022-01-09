@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/constraintTop"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_margin="@dimen/_8sdp">
+    style="@style/CardView.Light"
+    android:background="@color/black"
+    app:cardCornerRadius="@dimen/_8sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_5sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
 
     <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/item_movie_poster"
-            android:layout_width="@dimen/_250sdp"
-            android:layout_height="@dimen/_250sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
-            android:src="@drawable/splashscreen"
+
 
             />
 
@@ -22,6 +35,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Movie Title"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
                 android:textAlignment="textStart"
                 android:textAppearance="@style/textStyleHeadline3"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -49,16 +64,34 @@
         </com.google.android.material.textview.MaterialTextView>
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/releaseDate"
-            android:layout_width="match_parent"
+            android:id="@+id/releaseText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/overview"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:text="release Date"
-            android:textStyle="bold"
+            android:text=" Release Date:"
             android:textAlignment="textStart"
-            android:textAppearance="@style/textStyleBody2TertiaryGray1">
+            android:textAppearance="@style/textStyleHeadline3"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/releaseDate"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/overview">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/releaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="release Date"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:textAppearance="@style/textStyleBody2TertiaryGray1"
+            app:layout_constraintBottom_toBottomOf="@id/releaseText"
+            app:layout_constraintStart_toEndOf="@id/releaseText"
+
+            app:layout_constraintTop_toBottomOf="@id/overview"
+            app:layout_constraintTop_toTopOf="@id/releaseText"
+            app:layout_constraintVertical_bias="0.571">
 
         </com.google.android.material.textview.MaterialTextView>
 
@@ -73,6 +106,9 @@
 
             />
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
 
