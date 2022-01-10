@@ -21,9 +21,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var popularMovies: RecyclerView
     private lateinit var popularMovieAdapter: MovieAdapter
 
-    var backPressedTime: Long = 0
-
-    private var doubleBackToExitPressedOnce = false
+    private var backPressedTime:Long = 0
+    lateinit var backToast:Toast
 
     var sharedPreference: SharedPreference? = null
 
@@ -32,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        sharedPreference =SharedPreference(this)
+        sharedPreference = SharedPreference(this)
         logOut.setOnClickListener {
             sharedPreference!!.clearSharedPreference()
             Toast.makeText(this,"User LogOut Successfully.",Toast.LENGTH_SHORT).show()
@@ -71,10 +70,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if (doubleBackToExitPressedOnce)
-            this.finish()
-         else {
-            Toast.makeText(this, "Press LogOut Button to leave the app.", Toast.LENGTH_LONG).show()
+        backToast = Toast.makeText(this, "Press back again to leave the app.", Toast.LENGTH_LONG)
+        if (backPressedTime + 2000 > System.currentTimeMillis()) {
+            backToast.cancel()
+            super.onBackPressed()
+            return
+        } else {
+            backToast.show()
+            super.finish()
         }
         backPressedTime = System.currentTimeMillis()
     }

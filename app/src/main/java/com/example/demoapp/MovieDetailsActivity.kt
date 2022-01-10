@@ -28,8 +28,10 @@ class MovieDetailsActivity : AppCompatActivity() {
         movieDate.text = item?.release_date
         movieDes.text = item?.overview
         Glide.with(posterImage)
-            .load(item?.poster_path)
+            .load("https://image.tmdb.org/t/p/original${item?.poster_path}")
             .into(posterImage)
+
+
     }
 }
 

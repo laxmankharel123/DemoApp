@@ -1,6 +1,5 @@
 package com.example.demoapp.Network
 
-import android.util.Log
 import com.example.demoapp.Models.GetMoviesResponse
 import com.example.demoapp.Models.Movie
 
