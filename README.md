@@ -2,7 +2,7 @@
 A latest movie list app written in Android(Kotlin) language. The movie app first contains Login/signup UI and functionality using sharedPreferences and it uses recyclerview for fetching API response also onclick listener to display fetched item details in new activity. It also uses retrofit library for interacting with APIs and sending network request and uses gson library for json string and kotlin objects converter.
 
 
-#Used Libraries:
+# Used Libraries:
 <ul>
   <li>AppCompat</li>
   <li>ViewModel</li>
@@ -13,7 +13,6 @@ A latest movie list app written in Android(Kotlin) language. The movie app first
   <li>Gson</li>
 <li>glide</li>
 </ul>
-
 
 # To run the project follow below steps:
 - Goto Android studio select file - new - project from version control than paste
