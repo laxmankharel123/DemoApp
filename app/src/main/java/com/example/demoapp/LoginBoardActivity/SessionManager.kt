@@ -16,6 +16,8 @@ class SessionManager(context: Context) {
 
     var editor: Editor
 
+    private lateinit var signInClass: SignInActivity
+
 
     var context: Context
 
@@ -70,11 +72,16 @@ class SessionManager(context: Context) {
     fun logoutUser() {
         editor.clear()
         editor.commit()
-
         val intent = Intent(context, SignInActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
         context.startActivity(intent)
+
+
+
+
+
+
     }
 
 

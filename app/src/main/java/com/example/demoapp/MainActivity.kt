@@ -6,9 +6,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.demoapp.LoginBoardActivity.SessionManager
+import com.example.demoapp.LoginBoardActivity.SignInActivity
 import com.example.demoapp.Models.Movie
 import com.example.demoapp.Network.MoviesRepository
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_sign_in.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -17,9 +19,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var popularMovies: RecyclerView
     private lateinit var popularMovieAdapter: MovieAdapter
 
+
     var session: SessionManager? = null
-    private var backPressedTime:Long = 0
-    lateinit var backToast:Toast
+
 
 
 
@@ -36,6 +38,9 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(this,"User LogOut Successfully.",Toast.LENGTH_SHORT).show()
                 session!!.logoutUser()
+
+
+
             
         }
 

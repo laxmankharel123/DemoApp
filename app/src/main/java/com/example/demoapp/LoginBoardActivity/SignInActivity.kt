@@ -51,7 +51,8 @@ class SignInActivity : Activity() {
             finish()
         }
 
-        btnLogin = findViewById<View>(R.id.login) as Button
+        fun signInActivityFun(){
+            btnLogin = findViewById<View>(R.id.login) as Button
         // Login button click event
         btnLogin!!.setOnClickListener {
             val user = session!!.userDetails
@@ -81,6 +82,10 @@ class SignInActivity : Activity() {
 
             }
         }
+        }
+    override fun onBackPressed() {
+        finish()
+    }
     }
 
 

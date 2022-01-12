@@ -19,9 +19,6 @@ class SplashScreen : AppCompatActivity() {
 
         handleDirection()
 
-
-
-
        // Handler().postDelayed({
 
          //   val intent = Intent(this, MovieBoardActivity::class.java)
