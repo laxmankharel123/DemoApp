@@ -1,5 +1,5 @@
  MOVIE APP :  
- A latest movie list app that used Android(Kotlin) language. The movie app first contains Login/signup UI and functionality using sharedPreferences and it uses recyclerview for fetching API response also onclick listener to display fetched item details in new activity. It also uses retrofit library for interacting with APIs and sending network request and uses gson library for json string and kotlin objects converter. 
+ A latest movie list app written in Android(Kotlin) language. The movie app first contains Login/signup UI and functionality using sharedPreferences and it uses recyclerview for fetching API response also onclick listener to display fetched item details in new activity. It also uses retrofit library for interacting with APIs and sending network request and uses gson library for json string and kotlin objects converter. 
  
  Used Libraries: 
  AppCompat,
