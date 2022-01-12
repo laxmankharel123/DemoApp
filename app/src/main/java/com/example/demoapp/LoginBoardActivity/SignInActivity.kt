@@ -1,8 +1,12 @@
 package com.example.demoapp.LoginBoardActivity
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.EditText
 import android.widget.Toast
 import com.example.demoapp.MainActivity
 import com.example.demoapp.R
@@ -11,72 +15,73 @@ import kotlinx.android.synthetic.main.activity_sign_in.*
 import kotlinx.android.synthetic.main.activity_sign_in.emailId
 import kotlinx.android.synthetic.main.activity_sign_in.passWord
 
-class SignInActivity : AppCompatActivity() {
 
-    var sharedPreference:SharedPreference? = null
+class SignInActivity : Activity() {
+    // Email, password edittext
+    var txtUsername: EditText? = null
+    var txtPassword: EditText? = null
+
+    // login button
+    var btnLogin: Button? = null
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    // Session Manager Class
+    var session: SessionManager? = null
+    public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 
-        loginTab.setNavigationOnClickListener {
-            val intent = Intent(this, LoginModelUi::class.java)
-            startActivity(intent)
+        // Session Manager
+        session = SessionManager(applicationContext)
+
+
+        txtUsername = findViewById<View>(R.id.emailId) as EditText
+        txtPassword = findViewById<View>(R.id.passWord) as EditText
+
+
+        loginTab.setOnClickListener {
+            val i = Intent(applicationContext, LoginModelUi::class.java)
+            startActivity(i)
             finish()
-
         }
 
-            signUpNOW.setOnClickListener {
-                val intent = Intent(this, LoginModelUi::class.java)
-                startActivity(intent)
-            }
+        signUpNOW.setOnClickListener {
+            val i = Intent(applicationContext, LoginModelUi::class.java)
+            startActivity(i)
+            finish()
+        }
 
-
-            sharedPreference =SharedPreference(this)
-
-                val loginStatus = sharedPreference!!.getPreferenceString("DemoApp1")
-                if (loginStatus!=null){
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
+        btnLogin = findViewById<View>(R.id.login) as Button
+        // Login button click event
+        btnLogin!!.setOnClickListener {
+            val user = session!!.userDetails
+            val username = txtUsername!!.text.toString()
+            val password = txtPassword!!.text.toString()
+            val email = user[SessionManager.KEY_Email]
+            val password1 = user[SessionManager.KEY_Password]
+            if (username.trim().length > 0 && password.trim().length > 0) {
+                if (username.equals(email) && password.equals(password1)) {
+                    session!!.createLoginSession("Android Hive", "anroidhive@gmail.com")
+                    val i = Intent(applicationContext, MainActivity::class.java)
+                    startActivity(i)
                     finish()
+                } else {
+                    Toast.makeText(this, "User email or password is incorrect.", Toast.LENGTH_SHORT)
+                        .show()
                 }
-
-             login.setOnClickListener {
-                    val emailId = emailId.text.toString()
-                    val password = passWord.text.toString()
-
-                    if(emailId == "" || password == ""){
-                        Toast.makeText(this,"Please Enter Details.", Toast.LENGTH_SHORT).show()
-                    }else {
-                        val email = sharedPreference!!.getPreferenceString("email_id")
-                        val password2 = sharedPreference!!.getPreferenceString("password")
-
-                        if(email.equals(emailId) && password2.equals(password)){
-                            sharedPreference!!.saveString("DemoApp1" ,"1")
-                            val intent = Intent(this, MainActivity::class.java)
-                            startActivity(intent)
-                            finish()
-
-                        } else {
-                            Toast.makeText(this,"User Not Available Please Sign Up",Toast.LENGTH_SHORT).show()
-                        }
-                    }
+            }
+            else {
+                    Toast.makeText(
+                        this,
+                        "Please enter username and password.",
+                        android.widget.Toast.LENGTH_SHORT
+                    )
+                        .show()
                 }
-
-
-
-
-
 
             }
-
-
-
         }
-
-
-
+    }
 
 
 

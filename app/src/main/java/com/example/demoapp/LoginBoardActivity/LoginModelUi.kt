@@ -9,19 +9,17 @@ import kotlinx.android.synthetic.main.activity_login_model_ui.*
 
 class LoginModelUi : AppCompatActivity() {
 
-    var sharedPreference:SharedPreference? = null
+    var sessionManager:SessionManager? = null
+    companion object{
+        private const val IS_LOGIN = "IsLoggedIn"
+    }
 
-
+    private val emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
+    private val passwordPattern = "(?=^.{8,}\$)(?=.*\\d)(?=.*[!@#\$%^&*]+)(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*\$"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login_model_ui)
 
-
-        signIn.setOnClickListener {
-            val intent = Intent(this, SignInActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
 
         loginTabBarView.setNavigationOnClickListener {
             val intent = Intent(this, MovieBoardActivity::class.java)
@@ -29,31 +27,33 @@ class LoginModelUi : AppCompatActivity() {
             finish()
         }
 
-        sharedPreference = SharedPreference(this)
+        signIn.setOnClickListener {
+            val intent = Intent(this, SignInActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+         sessionManager = SessionManager(this)
+
         register.setOnClickListener {
              val emailId = emailId1.text.toString()
             val password = passWord1.text.toString()
-
-            if (emailId == ""  || password == "") {
-                Toast.makeText(this, "Please Enter Details.", Toast.LENGTH_SHORT).show()
+            if ((emailId == ""  || password == "")) {
+                Toast.makeText(this, "Please insert email Id and password.", Toast.LENGTH_SHORT).show()
             }
-            else
+           else if((emailId.matches(emailPattern.toRegex())) && (password.matches(passwordPattern.toRegex())) )
             {
-                sharedPreference!!.saveString("email_id",emailId)
-                sharedPreference!!.saveString("password",password)
+                sessionManager!!.createLoginSession(emailId, password)
                 Toast.makeText(this,"Registered Successfully.",Toast.LENGTH_SHORT).show()
-                finish()
                 val intent = Intent(this, SignInActivity::class.java)
                 startActivity(intent)
                 finish()
-
-
-
-
-
-
-
             }
+            else
+            {
+                Toast.makeText(this, "Please insert Valid email Id and password.", Toast.LENGTH_SHORT).show()
+            }
+
         }
     }
 }
