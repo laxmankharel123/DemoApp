@@ -10,9 +10,6 @@ import kotlinx.android.synthetic.main.activity_login_model_ui.*
 class LoginModelUi : AppCompatActivity() {
 
     var sessionManager:SessionManager? = null
-    companion object{
-        private const val IS_LOGIN = "IsLoggedIn"
-    }
 
     private val emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
     private val passwordPattern = "(?=^.{8,}\$)(?=.*\\d)(?=.*[!@#\$%^&*]+)(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*\$"

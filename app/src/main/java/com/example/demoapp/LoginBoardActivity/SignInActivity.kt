@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import com.example.demoapp.MainActivity
+import com.example.demoapp.View.MainActivity
 import com.example.demoapp.R
 
 import kotlinx.android.synthetic.main.activity_sign_in.*

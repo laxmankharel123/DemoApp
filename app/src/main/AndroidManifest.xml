@@ -31,7 +31,7 @@
             android:name=".MovieBoard.MovieBoardActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".View.MainActivity" />
         <activity
             android:name=".SplashScreen.SplashScreen"
             android:exported="true"

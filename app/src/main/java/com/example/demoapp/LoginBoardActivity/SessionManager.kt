@@ -16,8 +16,6 @@ class SessionManager(context: Context) {
 
     var editor: Editor
 
-    private lateinit var signInClass: SignInActivity
-
 
     var context: Context
 

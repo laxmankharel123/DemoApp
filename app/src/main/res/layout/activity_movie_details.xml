@@ -82,7 +82,7 @@
             android:textAppearance="@style/textStyleHeadline3"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@id/releaseDate"
+            app:layout_constraintEnd_toStartOf="@id/DateRelease"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/movieDescription">
@@ -90,7 +90,7 @@
         </com.google.android.material.textview.MaterialTextView>
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/releaseDate"
+            android:id="@+id/DateRelease"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="release Date"
@@ -121,7 +121,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/releaseDate"
+            app:layout_constraintTop_toBottomOf="@id/DateRelease"
             android:layout_marginTop="@dimen/_150sdp"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>

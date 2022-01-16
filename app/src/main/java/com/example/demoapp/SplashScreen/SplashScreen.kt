@@ -4,8 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.demoapp.LoginBoardActivity.SessionManager
-import com.example.demoapp.LoginBoardActivity.SignInActivity
-import com.example.demoapp.MainActivity
+import com.example.demoapp.View.MainActivity
 import com.example.demoapp.MovieBoard.MovieBoardActivity
 import com.example.demoapp.R
 

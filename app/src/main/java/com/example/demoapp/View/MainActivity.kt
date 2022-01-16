@@ -1,16 +1,16 @@
-package com.example.demoapp
+package com.example.demoapp.View
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.demoapp.Adapter.MovieAdapter
 import com.example.demoapp.LoginBoardActivity.SessionManager
-import com.example.demoapp.LoginBoardActivity.SignInActivity
 import com.example.demoapp.Models.Movie
 import com.example.demoapp.Network.MoviesRepository
+import com.example.demoapp.R
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_sign_in.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -55,8 +55,6 @@ class MainActivity : AppCompatActivity() {
 
         popularMovieAdapter = MovieAdapter(listOf())
         popularMovies.adapter = popularMovieAdapter
-
-
 
 
         MoviesRepository.getPopularMovies(
